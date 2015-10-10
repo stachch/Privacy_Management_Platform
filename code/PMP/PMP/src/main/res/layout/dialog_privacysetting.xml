@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:pmp="http://schemas.android.com/res/de.unistuttgart.ipvs.pmp"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginLeft="3dp"
+    android:layout_marginRight="3dp"
+    android:orientation="vertical" >
+
+    <de.unistuttgart.ipvs.pmp.gui.view.BasicTitleView
+        android:id="@+id/Title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        pmp:icon="@drawable/icon_rgs" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="-5dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/description"
+        android:textStyle="bold" />
+
+    <include layout="@layout/view_divider_light" />
+
+    <TextView
+        android:id="@+id/TextView_Description"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-3dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="-5dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/resource_group"
+        android:textStyle="bold" />
+
+    <include layout="@layout/view_divider_light" />
+
+    <TextView
+        android:id="@+id/TextView_RG_Name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-3dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="-5dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/identifier"
+        android:textStyle="bold" />
+
+    <include layout="@layout/view_divider_light" />
+
+    <TextView
+        android:id="@+id/TextView_Identifier"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-3dp" />
+
+    <Button
+        android:id="@+id/Button_Close"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/close" />
+
+</LinearLayout>

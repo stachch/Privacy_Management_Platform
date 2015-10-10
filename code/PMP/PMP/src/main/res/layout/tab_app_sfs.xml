@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:pmp="http://schemas.android.com/res/de.unistuttgart.ipvs.pmp"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/TextView_Description_Normal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tab_sfs_description_simplemode"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/TextView_Description_Expert"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tab_sfs_description_expertmode"
+        android:visibility="gone" />
+
+    <include layout="@layout/view_divider_strong" />
+
+    <ListView
+        android:id="@+id/ListView_SFs"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+    </ListView>
+
+    <Button
+        android:id="@+id/Button_Close"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text="@string/app_sf_back_to_the_app" />
+
+</LinearLayout>

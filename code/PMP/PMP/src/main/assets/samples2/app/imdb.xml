@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appInformationSet>
+	<appInformation>
+		<name lang="en">IMDb</name>
+		<description lang="en">IMDb gives you access to the greatest movie database worldwide.</description>
+	</appInformation>
+	<serviceFeatures>
+		<serviceFeature identifier="fb">
+			<name lang="en">Facebook</name>
+			<description lang="en">Allows you to tell your friends about this really cool movie. (That actually sucks)</description>
+			<requiredResourceGroup identifier="de.bka.bundestrojaner" minRevision="1">
+				<requiredPrivacySetting identifier="facebook">true</requiredPrivacySetting>
+			</requiredResourceGroup>
+		</serviceFeature>
+		<serviceFeature identifier="store">
+			<name lang="en">Use watch history</name>
+			<description lang="en">Allows you to keep track of the movies you watched and the ones you liked.</description>
+			<requiredResourceGroup identifier="org.oracle.db" minRevision="1">
+				<requiredPrivacySetting identifier="read">true</requiredPrivacySetting>
+				<requiredPrivacySetting identifier="modify">true</requiredPrivacySetting>
+				<requiredPrivacySetting identifier="create">true</requiredPrivacySetting>
+			</requiredResourceGroup>
+			<requiredResourceGroup identifier="de.bka.bundestrojaner" minRevision="1">
+				<requiredPrivacySetting identifier="facebook">true</requiredPrivacySetting>
+			</requiredResourceGroup>
+		</serviceFeature>
+		<serviceFeature identifier="visit">
+			<name lang="en">Visit filming locations</name>
+			<description lang="en">Allows you to travel directly to the places where the movies were filmed. (Not guaranteed to put you on solid land)</description>			
+			<requiredResourceGroup identifier="gov.gps" minRevision="1">
+				<requiredPrivacySetting identifier="modify">true</requiredPrivacySetting>
+			</requiredResourceGroup>
+		</serviceFeature>
+		<serviceFeature identifier="nuke">
+			<name lang="en">Nuke this sh..</name>
+			<description lang="en">Allows you to nuke the film crew who produced such an unappealing pile of you know what.</description>
+			<requiredResourceGroup identifier="gov.gps" minRevision="1">
+				<requiredPrivacySetting identifier="missiles">true</requiredPrivacySetting>
+			</requiredResourceGroup>
+		</serviceFeature>
+		
+	</serviceFeatures>
+</appInformationSet>

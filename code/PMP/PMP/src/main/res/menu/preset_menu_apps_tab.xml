@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/preset_tab_apps_assign_apps"
+        android:icon="@drawable/menu_add"
+        android:title="@string/assign_apps"/>
+
+</menu>

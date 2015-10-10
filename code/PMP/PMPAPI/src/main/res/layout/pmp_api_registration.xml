@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:pmp="http://schemas.android.com/res/de.unistuttgart.ipvs.pmp"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginLeft="3dp"
+    android:layout_marginRight="3dp"
+    android:orientation="vertical" >
+
+    <de.unistuttgart.ipvs.pmp.gui.view.BasicTitleView
+        pmp:name="@string/pmp_api_registration_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        pmp:icon="@drawable/pmp_api_icon" >
+    </de.unistuttgart.ipvs.pmp.gui.view.BasicTitleView>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout_States"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <include layout="@layout/view_divider_strong" />
+
+    <TextView
+        android:id="@+id/TextView_Failure_MissingActivity"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pmp_api_registration_failure_mainactivity"
+        android:textSize="16dp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/TextView_Failure_MissingPMP"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pmp_api_registration_failure_pmp_missing"
+        android:textSize="16dp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/TextView_Failure_Error"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pmp_api_registration_failure_registration_rejected"
+        android:textSize="16dp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/TextView_Failure_ErrorMessage"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/Button_Close"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text="@string/pmp_api_registration_exit_app"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/TextView_OpenSFList"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pmp_api_registration_select_sf_description"
+        android:textSize="16dp"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/Button_OpenSFList"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pmp_api_registration_select_sf"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/TextView_OpenApp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pmp_api_registration_open_app_description"
+        android:textSize="16dp"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/Button_OpenApp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pmp_api_registration_open_app"
+        android:visibility="gone" />
+
+</LinearLayout>

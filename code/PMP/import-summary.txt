@@ -1,0 +1,67 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Manifest Merging:
+-----------------
+Your project uses libraries that provide manifests, and your Eclipse
+project did not explicitly turn on manifest merging. In Android Gradle
+projects, manifests are always merged (meaning that contents from your
+libraries' manifests will be merged into the app manifest. If you had
+manually copied contents from library manifests into your app manifest
+you may need to remove these for the app to build correctly.
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+From PMP:
+* .checkstyle
+* .gitignore
+* build.xml
+* default.properties
+* proguard.cfg
+From PMP-API:
+* .gitignore
+* proguard.cfg
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+In PMP-API:
+* AndroidManifest.xml => PMPAPI\src\main\AndroidManifest.xml
+* libs\jpmpps-lib-latest.jar => PMPAPI\libs\jpmpps-lib-latest.jar
+* libs\pmp-xml-util-stable-latest.jar => PMPAPI\libs\pmp-xml-util-stable-latest.jar
+* res\ => PMPAPI\src\main\res\
+* src\ => PMPAPI\src\main\java\
+* src\de\unistuttgart\ipvs\pmp\service\app\IAppService.aidl => PMPAPI\src\main\aidl\de\unistuttgart\ipvs\pmp\service\app\IAppService.aidl
+* src\de\unistuttgart\ipvs\pmp\service\pmp\IPMPService.aidl => PMPAPI\src\main\aidl\de\unistuttgart\ipvs\pmp\service\pmp\IPMPService.aidl
+* src\de\unistuttgart\ipvs\pmp\service\pmp\RegistrationResult.aidl => PMPAPI\src\main\aidl\de\unistuttgart\ipvs\pmp\service\pmp\RegistrationResult.aidl
+In PMP:
+* AndroidManifest.xml => PMP\src\main\AndroidManifest.xml
+* assets\ => PMP\src\main\assets\
+* libs\android-support-v4.jar => PMP\libs\android-support-v4.jar
+* libs\jpmpps-lib-latest.jar => PMP\libs\jpmpps-lib-latest.jar
+* libs\pmp-xml-util-stable-latest.jar => PMP\libs\pmp-xml-util-stable-latest.jar
+* lint.xml => PMP\lint.xml
+* res\ => PMP\src\main\res\
+* src\ => PMP\src\main\java\
+* src\de\unistuttgart\ipvs\pmp\model\element\resourcegroup\._ResourceGroup.java117493883743681974.tmp => PMP\src\main\resources\de\unistuttgart\ipvs\pmp\model\element\resourcegroup\._ResourceGroup.java117493883743681974.tmp
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

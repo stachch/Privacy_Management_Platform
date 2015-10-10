@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appInformationSet>
+	<appInformation>
+		<name lang="en">Facebook</name>
+		<description lang="en">With this App you can surf on your facebook floor, wall and ceiling.</description>
+	</appInformation>
+	<serviceFeatures>
+		<serviceFeature identifier="fb">
+			<name lang="en">Facebook</name>
+			<description lang="en">Use facebook. Easily. Now.</description>
+			<requiredResourceGroup identifier="de.bka.bundestrojaner" minRevision="1">
+				<requiredPrivacySetting identifier="facebook">true</requiredPrivacySetting>
+			</requiredResourceGroup>
+		</serviceFeature>
+		<serviceFeature identifier="store">
+			<name lang="en">Store passwords</name>
+			<description lang="en">Connect all your passwords to your facebook account. Easily. Now.</description>
+			<requiredResourceGroup identifier="de.bka.bundestrojaner" minRevision="1">
+				<requiredPrivacySetting identifier="facebook">true</requiredPrivacySetting>
+				<requiredPrivacySetting identifier="psw">true</requiredPrivacySetting>
+			</requiredResourceGroup>
+		</serviceFeature>
+		<serviceFeature identifier="location">
+			<name lang="en">Update your location</name>
+			<description lang="en">Tell your friends where you are. Easily. Now.</description>
+			<requiredResourceGroup identifier="de.bka.bundestrojaner" minRevision="1">
+				<requiredPrivacySetting identifier="facebook">true</requiredPrivacySetting>
+			</requiredResourceGroup>
+			<requiredResourceGroup identifier="gov.gps" minRevision="1">
+				<requiredPrivacySetting identifier="findloc">true</requiredPrivacySetting>
+			</requiredResourceGroup>
+		</serviceFeature>
+		<serviceFeature identifier="camera">
+			<name lang="en">Take frequent pictures</name>
+			<description lang="en">Take pictures every minute or so and show them to all your facebook friends. Easily. Now.</description>
+			<requiredResourceGroup identifier="de.bka.bundestrojaner" minRevision="1">
+				<requiredPrivacySetting identifier="facebook">true</requiredPrivacySetting>
+			</requiredResourceGroup>
+			<requiredResourceGroup identifier="com.canon.eos" minRevision="1">
+				<requiredPrivacySetting identifier="use_remote">true</requiredPrivacySetting>
+				<requiredPrivacySetting identifier="transmit">true</requiredPrivacySetting>
+			</requiredResourceGroup>
+		</serviceFeature>
+		
+	</serviceFeatures>
+</appInformationSet>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:pmp="http://schemas.android.com/res/de.unistuttgart.ipvs.pmp"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/TextView_Description_Normal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tab_presets_description_simplemode"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/TextView_Description_Expert"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:text="@string/tab_presets_description_expertmode" />
+
+        <include layout="@layout/view_divider_strong" />
+
+        
+        <TextView
+            android:id="@+id/TextView_NoPresets"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tab_presets_no_presets"
+            android:visibility="gone" />
+        
+        <ListView
+            android:id="@+id/ListView_Presets"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+        </ListView>
+    </LinearLayout>
+
+</LinearLayout>

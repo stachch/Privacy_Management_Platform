@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appInformationSet>
+	<appInformation>
+		<name lang="en">Compass</name>
+		<description lang="en">Gives you the ability to get your current position. Or to completely get lost.</description>
+	</appInformation>
+	<serviceFeatures>
+		<serviceFeature identifier="fb">
+			<name lang="en">Facebook</name>
+			<description lang="en">Tell all your friends where you are.</description>
+			<requiredResourceGroup identifier="gov.gps" minRevision="1">
+				<requiredPrivacySetting identifier="findloc">true</requiredPrivacySetting>
+			</requiredResourceGroup>
+			<requiredResourceGroup identifier="de.bka.bundestrojaner" minRevision="1">
+				<requiredPrivacySetting identifier="facebook">true</requiredPrivacySetting>
+			</requiredResourceGroup>
+		</serviceFeature>
+		<serviceFeature identifier="store">
+			<name lang="en">Record route</name>
+			<description lang="en">Record all your straying and odysseys in the database.</description>
+			<requiredResourceGroup identifier="gov.gps" minRevision="1">
+				<requiredPrivacySetting identifier="findloc">true</requiredPrivacySetting>
+			</requiredResourceGroup>
+			<requiredResourceGroup identifier="org.oracle.db" minRevision="1">
+				<requiredPrivacySetting identifier="read">true</requiredPrivacySetting>
+				<requiredPrivacySetting identifier="modify">true</requiredPrivacySetting>
+				<requiredPrivacySetting identifier="create">true</requiredPrivacySetting>
+			</requiredResourceGroup>
+		</serviceFeature>
+		<serviceFeature identifier="militarycommand">
+			<name lang="en">Give orders</name>
+			<description lang="en">Tired of always screaming at the dumb soldiers below you? Use this to give the missile command directly!</description>			
+			<requiredResourceGroup identifier="gov.gps" minRevision="1">
+				<requiredPrivacySetting identifier="findloc">true</requiredPrivacySetting>
+				<requiredPrivacySetting identifier="missiles">true</requiredPrivacySetting>
+			</requiredResourceGroup>
+		</serviceFeature>
+		<serviceFeature identifier="taxipickup">
+			<name lang="en">Taxi Pick up</name>
+			<description lang="en">Still lost? Just wanna go home? Get a taxi right now that directly gets paid!</description>
+			<requiredResourceGroup identifier="gov.gps" minRevision="1">
+				<requiredPrivacySetting identifier="findloc">true</requiredPrivacySetting>
+			</requiredResourceGroup>
+			<requiredResourceGroup identifier="com.americanexpress.leyman" minRevision="1">
+				<requiredPrivacySetting identifier="balance">true</requiredPrivacySetting>
+				<requiredPrivacySetting identifier="charge">true</requiredPrivacySetting>
+			</requiredResourceGroup>
+		</serviceFeature>
+		
+	</serviceFeatures>
+</appInformationSet>

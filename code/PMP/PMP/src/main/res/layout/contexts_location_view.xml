@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" android:minHeight="500dp">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/contexts_location_uncertainty"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <SeekBar
+        android:id="@+id/uncertaintySeekBar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:paddingLeft="10dp" android:paddingRight="10dp" android:max="450" />
+
+    <TextView
+        android:id="@+id/uncertaintyTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/contexts_location_hysteresis"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <SeekBar
+        android:id="@+id/hysteresisSeekBar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:paddingLeft="10dp" android:paddingRight="10dp" android:max="100" />
+
+    <TextView
+        android:id="@+id/hysteresisTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"/>
+    
+    <Button
+        android:id="@+id/changeCoordsBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/contexts_location_change_coordinates" android:layout_marginTop="10dp"/>
+
+    <ListView
+        android:id="@+id/geoPointsList"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+    </ListView>
+
+</LinearLayout>

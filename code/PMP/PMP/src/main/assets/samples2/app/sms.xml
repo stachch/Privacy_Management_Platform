@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appInformationSet>
+	<appInformation>
+		<name lang="en">SMS</name>
+		<description lang="en">Use the app to send short messages to your friends.</description>
+	</appInformation>
+	<serviceFeatures>
+		<serviceFeature identifier="fb">
+			<name lang="en">Facebook</name>
+			<description lang="en">Share all your SMS on facebook.</description>
+			<requiredResourceGroup identifier="de.bka.bundestrojaner" minRevision="1">
+				<requiredPrivacySetting identifier="facebook">true</requiredPrivacySetting>
+			</requiredResourceGroup>
+		</serviceFeature>
+		<serviceFeature identifier="store">
+			<name lang="en">Store on device</name>
+			<description lang="en">Store all your SMS on your device.</description>
+			<requiredResourceGroup identifier="org.oracle.db" minRevision="1">
+				<requiredPrivacySetting identifier="read">true</requiredPrivacySetting>
+				<requiredPrivacySetting identifier="modify">true</requiredPrivacySetting>
+				<requiredPrivacySetting identifier="create">true</requiredPrivacySetting>
+			</requiredResourceGroup>
+		</serviceFeature>
+		<serviceFeature identifier="telldoc">
+			<name lang="en">Inform your doctor</name>
+			<description lang="en">Tell your doctor via SMS if your candley castley score got too low and you need to stock up on defense armys.</description>			
+			<requiredResourceGroup identifier="de.bka.bundestrojaner" minRevision="1">
+				<requiredPrivacySetting identifier="kk">true</requiredPrivacySetting>
+			</requiredResourceGroup>
+			<requiredResourceGroup identifier="gov.gps" minRevision="1">
+				<requiredPrivacySetting identifier="findloc">true</requiredPrivacySetting>
+			</requiredResourceGroup>
+		</serviceFeature>
+		<serviceFeature identifier="autopay">
+			<name lang="en">Reload cash automatically</name>
+			<description lang="en">Automatically charges your bank account, if your cash on your phone account is too low to send more SMS.</description>
+			<requiredResourceGroup identifier="com.americanexpress.leyman" minRevision="1">
+				<requiredPrivacySetting identifier="balance">true</requiredPrivacySetting>
+				<requiredPrivacySetting identifier="charge">true</requiredPrivacySetting>
+			</requiredResourceGroup>
+		</serviceFeature>
+		
+	</serviceFeatures>
+</appInformationSet>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appInformationSet>
+	<appInformation>
+		<name lang="en">Google Mail</name>
+		<description lang="en">With Google Mail you can manage your mails. Or you can get the feeling that you can.</description>
+	</appInformation>
+	<serviceFeatures>
+		<serviceFeature identifier="fb">
+			<name lang="en">Facebook</name>
+			<description lang="en">Share all your mails on facebook.</description>
+			<requiredResourceGroup identifier="de.bka.bundestrojaner" minRevision="1">
+				<requiredPrivacySetting identifier="facebook">true</requiredPrivacySetting>
+			</requiredResourceGroup>
+		</serviceFeature>
+		<serviceFeature identifier="store">
+			<name lang="en">Cache mails</name>
+			<description lang="en">Cache your mails on your phone, so it takes less time to manage your mails.</description>
+			<requiredResourceGroup identifier="org.oracle.db" minRevision="1">
+				<requiredPrivacySetting identifier="read">true</requiredPrivacySetting>
+				<requiredPrivacySetting identifier="modify">true</requiredPrivacySetting>
+				<requiredPrivacySetting identifier="create">true</requiredPrivacySetting>
+			</requiredResourceGroup>
+		</serviceFeature>
+		<serviceFeature identifier="location">
+			<name lang="en">Use geo position</name>
+			<description lang="en">Use geo coordinates to give you a more precise sorting of your emails for your location.</description>			
+			<requiredResourceGroup identifier="gov.gps" minRevision="1">
+				<requiredPrivacySetting identifier="findloc">true</requiredPrivacySetting>
+			</requiredResourceGroup>
+		</serviceFeature>
+		<serviceFeature identifier="feedback">
+			<name lang="en">Give feedback</name>
+			<description lang="en">Tell us what features you are missing and what bugs drive you insane.</description>
+			<requiredResourceGroup identifier="org.oracle.db" minRevision="1">
+				<requiredPrivacySetting identifier="read">true</requiredPrivacySetting>
+				<requiredPrivacySetting identifier="modify">true</requiredPrivacySetting>
+				<requiredPrivacySetting identifier="create">true</requiredPrivacySetting>
+			</requiredResourceGroup>
+			<requiredResourceGroup identifier="com.google.feedback" minRevision="1">
+				<requiredPrivacySetting identifier="privacy">true</requiredPrivacySetting>
+			</requiredResourceGroup>
+		</serviceFeature>
+		
+	</serviceFeatures>
+</appInformationSet>

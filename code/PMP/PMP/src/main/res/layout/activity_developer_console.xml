@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="fill_parent" android:layout_width="fill_parent">
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:orientation="vertical">
+
+		<LinearLayout
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:baselineAligned="false" >
+
+			<Button
+			    android:id="@+id/pdc_main_activity_btn"
+			    android:layout_width="86dp"
+			    android:layout_height="fill_parent"
+			    android:text="@string/dev_con_launcher_activity" >
+			</Button>
+			<TextView
+				android:text="@string/dev_con_description"
+				android:layout_height="wrap_content" android:paddingLeft="5dp"
+				android:layout_width="wrap_content"></TextView>
+		</LinearLayout>
+
+		<LinearLayout
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_marginTop="4dp"
+		    android:background="#555555"
+		    android:orientation="vertical" >
+
+			<TextView
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    android:layout_marginTop="5dp"
+			    android:paddingLeft="5dp"
+			    android:text="@string/model"
+			    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+			<LinearLayout
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content" >
+
+				<TextView
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:text="@string/dev_con_mockup_state" android:layout_marginTop="12dp" android:layout_marginLeft="12dp" android:layout_marginRight="16dp"/>
+
+				<ToggleButton
+				    android:id="@+id/pdc_switch_mockup_btn"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:text="@string/dev_con_toggle_button" android:checked="false"/>
+
+			</LinearLayout>
+
+			<LinearLayout
+			    android:layout_width="wrap_content"
+			    android:layout_height="fill_parent"
+			    android:layout_gravity="center_horizontal"
+			    android:layout_marginLeft="4dp" >
+
+				<Button
+				    android:id="@+id/pdc_precache_btn"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:text="@string/dev_con_precache_model" />
+
+				<Button
+				    android:id="@+id/pdc_clearcache_btn"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:text="@string/dev_con_clear_model_cache" />
+
+			</LinearLayout>
+
+			<LinearLayout
+			    android:layout_width="wrap_content"
+			    android:layout_height="fill_parent"
+			    android:layout_gravity="center_horizontal"
+			    android:layout_marginLeft="4dp"
+			    android:gravity="center_horizontal" >
+
+				<Button
+				    android:id="@+id/pdc_clean_tables_btn"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:text="@string/dev_con_clear_db_table" />
+			</LinearLayout>
+
+		</LinearLayout>
+
+		<LinearLayout
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:orientation="vertical" android:layout_marginBottom="8dp">
+
+			<TextView
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    android:layout_marginBottom="4dp"
+			    android:layout_marginTop="8dp"
+			    android:text="@string/app_service"
+			    android:textAppearance="?android:attr/textAppearanceLarge" android:paddingLeft="5dp"/>
+
+			<LinearLayout
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content" >
+
+			    <EditText
+			        android:id="@+id/pdc_appservice_name_edit"
+			        android:layout_width="0dip"
+			        android:layout_height="wrap_content"
+			        android:layout_weight="1"
+			        android:text="@string/dev_con_apps_path"
+			        android:textSize="12dp" 
+			        android:inputType="text">
+
+			        <requestFocus />
+			    </EditText>
+
+			    <Button
+			        android:id="@+id/pdc_appservice_bind_btn"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:text="@string/bind" />
+			</LinearLayout>
+
+		</LinearLayout>
+
+		<LinearLayout
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:background="#555555"
+		    android:orientation="vertical" >
+
+		    <TextView
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="5dp"
+		        android:paddingLeft="5dp"
+		        android:text="@string/resource_groups"
+		        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+		    <LinearLayout
+		        android:id="@+id/linearLayout1"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content" >
+
+		        <EditText
+		            android:id="@+id/pdc_rg_path"
+		            android:layout_width="0dip"
+		            android:layout_height="wrap_content"
+		            android:layout_weight="1"
+		            android:inputType="text" />
+
+		        <Button
+		            android:id="@+id/pdc_rg_install_btn"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="@string/install" />
+
+		    </LinearLayout>
+
+		    <LinearLayout
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content" >
+
+		        <TextView
+		            android:id="@+id/textView1"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="@string/dev_con_id" />
+
+		        <EditText
+		            android:id="@+id/pdc_rg_name"
+		            android:layout_width="0dip"
+		            android:layout_height="wrap_content"
+		            android:inputType="text"
+		            android:layout_weight="1" android:text="@string/dev_con_rgs_path" android:textSize="12dp"/>
+
+		    </LinearLayout>
+
+		</LinearLayout>
+
+		<LinearLayout
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_marginBottom="8dp"
+		    android:orientation="vertical" >
+
+		    <TextView
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginBottom="4dp"
+		        android:layout_marginTop="8dp"
+		        android:paddingLeft="5dp"
+		        android:text="@string/dev_con_table_of_contents"
+		        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+		    <LinearLayout
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content" >
+
+		        <Button
+		            android:id="@+id/pdc_toc_model"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_weight="1"
+		            android:text="@string/model" />
+
+		        <Button
+		            android:id="@+id/pdc_toc_db"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_weight="1"
+		            android:text="@string/database" />
+
+		        <Button
+		            android:id="@+id/pdc_toc_conflicts"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_weight="1"
+		            android:text="@string/conflicts" />
+
+		    </LinearLayout>
+		</LinearLayout>
+
+		<LinearLayout
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:background="#555555"
+		    android:orientation="vertical" >
+
+		    <TextView
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="5dp"
+		        android:paddingLeft="5dp"
+		        android:text="@string/dev_con_svc_nfc"
+		        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+		    <LinearLayout
+		        android:id="@+id/linearLayout2"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content" android:layout_gravity="center_horizontal">
+
+		        <ToggleButton
+		            android:id="@+id/svc_nfc_bound_switch"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"/>
+
+		        <ToggleButton
+		            android:id="@+id/svc_nfc_working_switch"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"/>
+		        
+		        <Button
+		            android:id="@+id/pdc_svc_calc"
+		            android:layout_height="wrap_content"
+		            android:layout_width="0dp"
+		            android:layout_weight="1"
+		            android:paddingLeft="16dp"
+		            android:text="@string/dev_con_svc_nfc_calc" />
+
+		    </LinearLayout>
+
+		</LinearLayout>
+
+	</LinearLayout>
+</ScrollView>

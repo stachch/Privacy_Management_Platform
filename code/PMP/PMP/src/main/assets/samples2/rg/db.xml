@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resourceGroupInformationSet>
+	<resourceGroupInformation 
+		identifier="org.oracle.db"
+		icon="location.of.the.icon"
+		className="xy">
+		<name lang="en">Database</name>
+		<name lang="de">Datenbank</name>
+		<description lang="en">The Database resource group provides easy access to the central managed databases.</description>
+		<description lang="de">Die Datenbankressourcengruppe bietet einfachen Zugriff auf zentral verwaltete Datenbanken.</description>
+	</resourceGroupInformation>
+	<privacySettings>
+		<privacySetting
+			identifier="read"
+			validValueDescription="'true' and 'false' are valid values.">
+			<name lang="en">Read</name>
+			<name lang="de">Lesen</name>
+			<description lang="en">Indicate the right to read an existed database.</description>
+			<description lang="de">Das Recht eine bestehenede Datenbank zu lesen.</description>
+		</privacySetting>
+		<privacySetting
+			identifier="modify"
+			validValueDescription="'true' and 'false' are valid values.">
+			<name lang="en">Modify</name>
+			<name lang="de">Bearbeiten</name>
+			<description lang="en">Indicate the right to modify the data of a database, including inserting, updating and deleting data in tables but not deletion from tables.</description>
+			<description lang="de">Das Recht Daten einer Datenbank zu bearbeiten. Dazu gehört ebenfalls das Hinzufügen und Löschen von Daten, jedoch nicht das Löschen von Tabellen.</description>
+		</privacySetting>
+		<privacySetting
+			identifier="create"
+			validValueDescription="'true' and 'false' are valid values.">
+			<name lang="en">Create</name>
+			<name lang="de">Erstellen</name>
+			<description lang="en">Indicate the right to create and delete new tables.</description>
+			<description lang="de">Das Recht neue Tabellen in der Datenbank zu erstellen und löschen.</description>
+		</privacySetting>		
+	</privacySettings>
+</resourceGroupInformationSet>

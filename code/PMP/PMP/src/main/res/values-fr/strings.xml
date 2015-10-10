@@ -1,0 +1,87 @@
+<resources>
+
+    <!-- General terms (sorted alphabetically) -->
+    <string name="about">Sur</string>
+    <string name="about_the_app">À propos de l\'application</string>
+    <string name="add_preset">Ajouter prédéfini</string>
+    <string name="apps">Applications</string>
+    <string name="app_details">Les détails de cette appli</string>
+    <string name="app_service">App de service</string>
+    <string name="app_version">version 2.0</string>
+    <string name="assign_apps">Attribuer les applications</string>
+    <string name="assign_privacy_setting">Attribuer des paramètres de confidentialité</string>
+    <string name="privacy_settings">Paramètres de confidentialité</string>
+    <string name="available">Disponible</string>
+    <string name="bind">Lier</string>
+    <string name="cancel">Annuler</string>
+    <string name="change">Changer</string>
+    <string name="change_value">Modification de la valeur</string>
+    <string name="change_newline_value">Changer Value</string>
+    <string name="choose_email_app">Choisissez app email ...</string>
+    <string name="choose_your_action">Choisissez votre action</string>
+    <string name="close">Fermer</string>
+    <string name="clear_trash_bin">Poubelle Clair</string>
+    <string name="confirm">Confirmer</string>
+    <string name="database">Base de données</string>
+    <string name="delete_preset_permanently">Supprimer prédéfini</string>
+    <string name="delete_preset_trash_bin">Corbeille prédéfini</string>
+    <string name="description">Descriptif</string>
+    <string name="details">Détails</string>
+    <string name="disable">Désactiver</string>
+    <string name="edit_deleted_preset">Modifier supprimé prédéfini</string>
+    <string name="edit_name_and_description">Modifier les infos</string>
+    <string name="edit_preset">Édition pré-réglages</string>
+    <string name="enable">Activer</string>
+    <string name="expert_mode">Le mode expert</string>
+    <string name="export_presets">Préréglages d\'exportation</string>
+    <string name="hide_trash_bin">Masquer poubelle</string>
+    <string name="icon">Icône</string>
+    <string name="identifier">Identifiant</string>
+    <string name="install">Installer</string>
+    <string name="installed">Installé</string>
+    <string name="import_presets">Préréglages d\'importation</string>
+    <string name="import_with_pmp">Importer avec PMP</string>
+    <string name="last_update_at">Dernière mise à jour à</string>
+    <string name="model">Modèle</string>
+    <string name="name">Nom</string>
+    <string name="new_string">Nouveau</string>
+    <string name="next_step">Étape suivante</string>
+    <string name="no">Aucun</string>
+    <string name="open_app">Ouvrir app</string>
+    <string name="please_enter_a_name">Veuillez entrer un nom.</string>
+    <string name="please_choose_another_name">S\'il vous plaît choisir un autre nom.</string>
+    <string name="pmp">Plate-forme de gestion des renseignements</string>
+    <string name="presets">Préréglages</string>
+    <string name="problems">Problèmes</string>
+    <string name="registered_apps">Applications enregistrés</string>
+    <string name="remove">Effacer</string>
+    <string name="remove_app">Retirer app</string>
+    <string name="remove_privacy_setting">Retirez les paramètres de confidentialité</string>
+    <string name="required_privacy_settings">Les paramètres de confidentialité requis</string>
+    <string name="required_resources">Les ressources requises</string>
+    <string name="required_value">valeur requise</string>
+    <string name="resources">Ressources</string>
+    <string name="resource_group">Resources</string>
+    <string name="resource_groups">Groupes de ressources</string>
+    <string name="restore_preset">Restaurer prédéfini</string>
+    <string name="revision">Version</string>
+    <string name="save">Enregistrer</string>
+    <string name="send_email">Envoyer un e-mail</string>
+    <string name="service_features">Les caractéristiques du service</string>
+    <string name="settings">Paramètres</string>
+    <string name="set_value">Réglez la valeur</string>
+    <string name="show_details">Afficher les détails.</string>
+    <string name="show_trash_bin">Afficher poubelle</string>
+    <string name="statistics">Statistiques</string>
+    <string name="trash_bin">Poubelle</string>
+    <string name="uninstall">Désinstaller</string>
+    <string name="update">Mettre à jour</string>
+    <string name="update_list">Mettre à jour l\'annonce</string>
+    <string name="unregister_app">Unregister app</string>
+    <string name="value">Valeur</string>
+    <string name="yes">Oui</string>
+
+    <!-- Main -->
+    <string name="main_description">Bienvenue sur la plate-forme de gestion des renseignements personnels. Appuyez sur un bouton pour interagir avec PMP. Vous pouvez également permettre à l\'expert-mode dans les paramètres.</string>
+
+</resources>

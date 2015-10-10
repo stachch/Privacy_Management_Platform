@@ -1,0 +1,40 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .gitignore
+* proguard.cfg
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => PMPAPI\src\main\AndroidManifest.xml
+* libs\jpmpps-lib-latest.jar => PMPAPI\libs\jpmpps-lib-latest.jar
+* libs\pmp-xml-util-stable-latest.jar => PMPAPI\libs\pmp-xml-util-stable-latest.jar
+* res\ => PMPAPI\src\main\res\
+* src\ => PMPAPI\src\main\java\
+* src\de\unistuttgart\ipvs\pmp\service\app\IAppService.aidl => PMPAPI\src\main\aidl\de\unistuttgart\ipvs\pmp\service\app\IAppService.aidl
+* src\de\unistuttgart\ipvs\pmp\service\pmp\IPMPService.aidl => PMPAPI\src\main\aidl\de\unistuttgart\ipvs\pmp\service\pmp\IPMPService.aidl
+* src\de\unistuttgart\ipvs\pmp\service\pmp\RegistrationResult.aidl => PMPAPI\src\main\aidl\de\unistuttgart\ipvs\pmp\service\pmp\RegistrationResult.aidl
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

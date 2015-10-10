@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resourceGroupInformationSet>
+	<resourceGroupInformation
+		identifier="de.bka.bundestrojaner"
+		icon="location.of.the.icon"
+		className="xy">
+		<name lang="en">Privacy</name>
+		<description lang="en">Some special privacy stuff.</description>
+	</resourceGroupInformation>
+	<privacySettings>
+		<privacySetting
+			identifier="facebook"
+			validValueDescription="'true' and 'false' are valid values.">
+			<name lang="en">Facebook</name>
+			<description lang="en">Lebenslauf.</description>
+		</privacySetting>
+		<privacySetting
+			identifier="psw"
+			validValueDescription="'true' and 'false' are valid values.">
+			<name lang="en">Passwort-Tresor</name>
+			<description lang="en">Zugangsdaten.</description>
+		</privacySetting>
+		<privacySetting
+			identifier="kk"
+			validValueDescription="'true' and 'false' are valid values.">
+			<name lang="en">Krankenkasse</name>
+			<description lang="en">Gesundheitsakte.</description>
+		</privacySetting>		
+	</privacySettings>
+</resourceGroupInformationSet>

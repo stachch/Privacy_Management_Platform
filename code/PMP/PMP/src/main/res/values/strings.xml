@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- General terms (sorted alphabetically) -->
+    <string name="about">About</string>
+    <string name="about_the_app">About the app</string>
+    <string name="add_preset">Add preset</string>
+    <string name="apps">Apps</string>
+    <string name="app_details">App details</string>
+    <string name="app_service">App service</string>
+    <string name="app_version">version 2.0</string>
+    <string name="assign_apps">Assign apps</string>
+    <string name="assign_privacy_setting">Assign privacy setting</string>
+    <string name="privacy_settings">Privacy settings</string>
+    <string name="available">Available</string>
+    <string name="bind">Bind</string>
+    <string name="cancel">Cancel</string>
+    <string name="change">Change</string>
+    <string name="change_value">Change value</string>
+    <string name="change_newline_value">Change\nvalue</string>
+    <string name="choose_email_app">Choose email app…</string>
+    <string name="choose_your_action">Choose your action</string>
+    <string name="close">Close</string>
+    <string name="clear_trash_bin">Clear trash bin</string>
+    <string name="confirm">Confirm</string>
+    <string name="database">Database</string>
+    <string name="delete_preset_permanently">Delete preset</string>
+    <string name="delete_preset_trash_bin">Trash preset</string>
+    <string name="description">Description</string>
+    <string name="details">Details</string>
+    <string name="disable">Disable</string>
+    <string name="edit_deleted_preset">Edit deleted preset</string>
+    <string name="edit_name_and_description">Edit details</string>
+    <string name="edit_preset">Edit preset</string>
+    <string name="enable">Enable</string>
+    <string name="expert_mode">Expert mode</string>
+    <string name="export_presets">Export Presets</string>
+    <string name="hide_trash_bin">Hide trash bin</string>
+    <string name="icon">Icon</string>
+    <string name="identifier">Identifier</string>
+    <string name="install">Install</string>
+    <string name="installed">Installed</string>
+    <string name="import_presets">Import Presets</string>
+    <string name="import_with_pmp">Import with PMP</string>
+    <string name="last_update_at">Last update at</string>
+    <string name="model">Model</string>
+    <string name="name">Name</string>
+    <string name="new_string">New</string>
+    <string name="next_step">Next step</string>
+    <string name="no">No</string>
+    <string name="open_app">Open app</string>
+    <string name="please_enter_a_name">Please enter a name!</string>
+    <string name="please_choose_another_name">Please choose another name.</string>
+    <string name="pmp">Privacy Management Platform</string>
+    <string name="presets">Presets</string>
+    <string name="problems">Problems</string>
+    <string name="registered_apps">Registered apps</string>
+    <string name="remove">Remove</string>
+    <string name="remove_app">Remove app</string>
+    <string name="remove_privacy_setting">Remove privacy setting</string>
+    <string name="required_privacy_settings">Required privacy settings</string>
+    <string name="required_resources">Required resources</string>
+    <string name="required_value">required value</string>
+    <string name="resources">Resources</string>
+    <string name="resource_group">Resource</string>
+    <string name="resource_groups">Resource groups</string>
+    <string name="restore_preset">Restore preset</string>
+    <string name="revision">Revision</string>
+    <string name="save">Save</string>
+    <string name="search">Search</string>
+    <string name="send_email">Send email</string>
+    <string name="service_features">Service features</string>
+    <string name="settings">Settings</string>
+    <string name="set_value">Set value</string>
+    <string name="show_details">Show details</string>
+    <string name="show_trash_bin">Show trash bin</string>
+    <string name="statistics">Statistics</string>
+    <string name="trash_bin">Trash bin</string>
+    <string name="uninstall">Uninstall</string>
+    <string name="update">Update</string>
+    <string name="update_list">Update list</string>
+    <string name="unregister_app">Unregister app</string>
+    <string name="value">Value</string>
+    <string name="yes">Yes</string>
+
+    <!-- Main -->
+    <string name="main_description">Welcome to the Privacy Management Platform. Tap on a button to interact with PMP. You can also enable the expert-mode in the settings.</string>
+
+    <plurals name="main_statistics_apps">
+        <item quantity="zero">- No apps are registered yet</item>
+        <item quantity="one">- 1 app is registered yet</item>
+        <item quantity="other">- %d apps are registered yet</item>
+    </plurals>
+    <plurals name="main_statistics_rgs">
+        <item quantity="zero">- No resource groups were installed</item>
+        <item quantity="one">- 1 resource group was installed</item>
+        <item quantity="other">- %d resource groups were installed</item>
+    </plurals>
+    <plurals name="main_statistics_presets">
+        <item quantity="zero">- No presets have been created</item>
+        <item quantity="one">- 1 preset has been created</item>
+        <item quantity="other">- %d presets have been created</item>
+    </plurals>
+
+    <string name="main_presets_disabled">The presets are only available in the expert mode, please enable it in the settings to use the presets feature.</string>
+
+    <!-- Settings -->
+    <string name="settings_expertmode_description">Enables the presets feature in PMP</string>
+    <string name="settings_preset_trash_bin_visible">Preset trash bin visible</string>
+    <string name="settings_preset_trash_bin_description">Check to show the trashed presets.</string>
+    <string name="settings_log_granularity_component_change">Log component changes</string>
+    <string name="settings_log_granularity_component_change_desc">Logs adding and removing of apps and resource groups.</string>
+    <string name="settings_log_granularity_setting_change">Log setting changes</string>
+    <string name="settings_log_granularity_setting_change_desc">Logs the changes caused by the input of the user.</string>
+    <string name="settings_log_granularity_context_change">Log context changes</string>
+    <string name="settings_log_granularity_context_change_desc">Logs the activity and influence of contexts.</string>
+    <string name="settings_log_granularity_setting_request">Log setting requests</string>
+    <string name="settings_log_granularity_setting_request_desc">Logs requests for the current values from apps or resource groups.</string>
+
+    <!-- Apps -->
+    <string name="apps_description">All apps registered at PMP are listed here. Select an app to view more information.</string>
+    <string name="apps_no_apps">Currently there are no apps registered at PMP. Install a compatible app to fill the list.</string>
+
+    <!-- App Details -->
+    <string name="app_removed">App successfully removed from PMP.</string>
+    <string name="app_not_opened">App can\'t be opened.</string>
+    <string name="app_successfully_unregistered">App was successfully removed from PMP.</string>
+
+    <!-- Service Features Tab/Dialog -->
+    <string name="service_feature_title">Details: %1$s</string>
+    <string name="ps_invalid_value">required value is invalid</string>
+    <string name="tab_sfs_description_simplemode">Enabled service features are green and have a tick. Disabled service features are red and have a cross. Greyed-out entries are not available, tap to view more details about why.</string>
+    <string name="tab_sfs_description_expertmode">Enabled service features are green, disabled service features are red. In the expert mode you can change them by adding presets to the app.</string>
+    <string name="missing_rgs_description">You have to install the missing Resources before you can use the Service Feature.</string>
+    <string name="missing_rgs_show">Show missing resources</string>
+    <string name="button_one_click_install">1-Click\nInstall</string>
+    <string name="button_view_missing_rgs">View missing\nresources</string>
+    <string name="button_create_new_preset">Create new\npreset</string>
+    <string name="button_add_to_preset">Add to\npreset</string>
+    <string name="app_sf_back_to_the_app">Done, back to the app.</string>
+    <string name="add_sf_to_preset">Add service feature to preset</string>
+    <string name="add_sf_to_preset_description">Adds the privacy settings of this service feature to a preset.</string>
+    <string name="failure_active_sf">The Service Feature can\'t be enabled. Please contact the app developer.</string>
+    <string name="failure_invalid_ps_in_sf">The Service Feature contains invalid Privacy Settings, please contact the app developer.</string>
+
+    <!-- App-Presets Tab -->
+    <string name="tab_presets_description_simplemode">You can only use the presets feature, if you enable the expert mode in the settings.</string>
+    <string name="tab_presets_description_expertmode">You can tap on a preset to change it or use the menu to assign another preset to the app.</string>
+    <string name="tab_presets_no_presets">Currently there are no presets assigned to the app. Assign some presets to fill the list.</string>
+
+    <!-- ResourceGroups -->
+    <string name="rg_fetching_resources">Fetching resources from server.\nPlease wait…</string>
+    <string name="rg_server_not_available">The update server was not reachable.</string>
+    <string name="rg_no_matching_rgs_found">No matching resources where found.</string>
+    <string name="rg_removed_success">The resource has been successfully removed. Restarting PMP, please wait a second.</string>
+    <string name="rg_processing_installation">Processing installation request…</string>
+    <string name="rg_confirm_remove">Confirm removing resource</string>
+    <string name="rg_confirm_description">The resource \'%1$s\' is going to be removed. If you confirm this, all stored data of the Resource will be deleted as well.</string>
+    <string name="rgs_installed_no_rgs">Currently there are no resources installed. Install a resource using the \'Available\' tab to fill the list.</string>
+    <string name="install_progress_overall">Overall progress</string>
+    <string name="install_progress_task">Progress of current task</string>
+    <string name="rg_not_found">The Resource \'%1$s\' was not found on the server and can\'t be installed.</string>
+
+    <!-- Overview of Presets -->
+    <string name="presets_description">All existing presets are listed here. Select a preset to view more information.</string>
+    <string name="presets_alert_clear_trash_bin">Are you sure to clear the trash bin?</string>
+    <string name="presets_no_presets_existing">There are currently no presets.</string>
+    <string name="presets_trash_bin_empty">The trash bin is empty.</string>
+    <string name="presets_import_export_title">Select the Presets</string>
+    <string name="presets_import_export_override_decription">Override existing Presets</string>
+    <string name="presets_export_title">The ID of the PresetSet</string>
+    <string name="presets_export_email_subject">PresetSet for PMP</string>
+    <string name="presets_export_email_body">Hey,\nI\'ve created a PresetSet and uploaded it to the PMP website.\nYou can download it by using the link or just open your PMP app and import the PresetSet with the following ID.\n\nLink: http://pmp-android.no-ip.org:3134/%1$s \nID: %1$s\n\nBye.</string>
+    <string name="presets_export_description">Long touch on the ID copies it.</string>
+    <string name="presets_export_copy_success">Copied the ID.</string>
+    <string name="presets_import_title">Enter the ID of the PresetSet</string>
+    <string name="presets_import_failed">Failed to import the Preset set, maybe an incompatible version.</string>
+    <string name="presets_import_succeed">Successfully imported Presets.</string>
+    <string name="presets_export_upload_title">Upload in process…</string>
+    <string name="presets_export_upload_message">Please wait a moment until the upload is completed.</string>
+    <string name="presets_export_upload_failed">Failed to upload the preset, you may try again.</string>
+    <string name="presets_import_download_title">Download in process…</string>
+    <string name="presets_import_download_message">Please wait a moment until the download is completed.</string>
+    <string name="presets_import_download_failed">Failed to download the preset, you may try again with another ID.</string>
+
+    <!-- One Preset / Tab: Details -->
+    <string name="preset_missing_apps_or_rgs">The preset has been disabled, because resources are missing, or an assigned app has been removed.\nUse the buttons below to fix the problems.</string>
+    <string name="button_remove_missing_apps">Remove\nmissing Apps</string>
+
+    <!-- One Preset / Tab: Apps -->
+    <string name="preset_tab_apps_no_apps_assigned">There are currently no apps assigned.\nClick on the menu to assign apps.</string>
+    <string name="preset_tab_apps_all_apps_assigned">All currently available apps are already assigned.</string>
+
+    <!-- One Preset / Tab: Privacy Settings -->
+    <string name="preset_tab_pss_no_pss_assigned">There are currently no privacy settings assigned.\nClick on menu to assign privacy settings.</string>
+    <string name="preset_tab_pss_all_pss_already_assigned">All currently available privacy settings are already assigned.</string>
+    <string name="preset_confirm_remove_ps">Confirm removing privacy setting</string>
+    <string name="preset_confirm_remove_ps_description">The privacy setting \'%1$s\' is going to be removed. If you confirm this, all stored data in the privacy setting will be removed as well.</string>
+    <string name="preset_removed_ps_success">The privacy setting has been successfully removed from the preset.</string>
+    <string name="preset_invalid_ps_value">The current value of the privacy setting is invalid, changing to the default one.</string>
+    <string name="add_context">Add context</string>
+    <string name="failure_invalid_ps_value">The new Privacy Setting value is an invalid one saving failed. Try again.</string>
+    <string name="failure_invalid_context_value">The new context value is an invalid one, saving failed. Try again.</string>
+
+    <!-- Context Dialog -->
+    <string name="context_select_context_type">Select a context type</string>
+    <string name="context_value_when_active">Value when active</string>
+
+    <!-- About the app -->
+    <string name="about_text">The Privacy Management Platform is developed as a research project at the University Stuttgart.</string>
+
+    <!-- Developer console -->
+    <string name="dev_con_launcher_activity">Launcher Activity</string>
+    <string name="dev_con_description">Developer debugging controls. If you do not know what a button does, do not push it!</string>
+    <string name="dev_con_mockup_state">ModelProxy\'s mockup state:</string>
+    <string name="dev_con_toggle_button">ToggleButton</string>
+    <string name="dev_con_precache_model">Precache model</string>
+    <string name="dev_con_clear_model_cache">Clear model cache</string>
+    <string name="dev_con_clear_db_table">Clean database table</string>
+    <string name="dev_con_apps_path">de.unistuttgart.ipvs.pmp.apps.</string>
+    <string name="dev_con_id">ID:</string>
+    <string name="dev_con_rgs_path">de.unistuttgart.ipvs.pmp.resourcegroups.</string>
+    <string name="dev_con_table_of_contents">Table of Contents (Total debug)</string>
+    <string name="dev_con_svc_nfc">Context Service Stuff</string>
+    <string name="dev_con_svc_nfc_calc">Force Context recalculation</string>
+
+    <!-- Service Notification -->
+    <string name="svc_nfc_title">PMP</string>
+    <string name="svc_nfc_extended_title">PMP Service</string>
+    <string name="svc_nfc_description">PMP</string>
+
+    <!-- Contexts -->
+    <string name="context_conflict_title">Context conflicts</string>
+    <string name="context_conflict_description">The context is conflicting with other Presets, to solve these issues tap on a Preset.</string>
+    <string name="context_conflict_description_inner">To solve the issue remove all listed Apps from one of the Presets or solve the PrivacySetting and Context issues.</string>
+    <string name="context_conflict_remove_from">Remove from\n%1$s</string>
+    <string name="context_conflict_change_in">Change in\n%1$s</string>
+    <string name="context_conflict_ps_description">Tap on a Button to solve the PrivacySetting issue for the Preset \'%1$s\'.</string>
+    <string name="contxt_conflict_contexts_description">Change or remove all conflicting Contexts to solve the issue.</string>
+    <string name="contxt_conflict_apps_description">Alternatively remove the Apps from one of the Presets, tap therefore on the button with the Preset name to remove the App from it.</string>
+    <string name="context_conflict_ps_title">PrivacySetting conflict</string>
+    <string name="context_conflict_contexts_title">Context conflicts</string>
+    <string name="context_conflict_apps_title">App conflicts</string>
+    <string name="context_preset_conflicting">Conflicting Presets</string>
+    <string name="context_preset_conflict_text">The Preset \'%1$s\' has a conflicting PrivacySetting.</string>
+    <string name="context_other_context_conflict_text">The Preset \'%1$s\' has a conflicting Context.\nCondition: \'%2$s\' \nOverride value: \'%3$s\'</string>
+    <string name="contexts_time_name">Time context</string>
+    <string name="contexts_time_desc">The time context allows to define context dependencies based on the current time.</string>
+    <string name="contexts_time_begin_time">Start at:</string>
+    <string name="contexts_time_end_time">End at:</string>
+    <string name="contexts_time_whole_day">Whole day</string>
+    <string name="contexts_time_time_with_phone">Keep time zone with phone</string>
+    <string name="contexts_time_time_with_location">Keep time zone with location</string>
+    <string name="contexts_time_interval">Interval:</string>
+
+    <string-array name="contexts_time_intervals">
+        <item>Daily</item>
+        <item>Weekly</item>
+        <item>Monthly</item>
+        <item>Yearly</item>
+    </string-array>
+
+    <string name="contexts_time_mon">Mon</string>
+    <string name="contexts_time_tue">Tue</string>
+    <string name="contexts_time_wed">Wed</string>
+    <string name="contexts_time_thu">Thu</string>
+    <string name="contexts_time_fri">Fri</string>
+    <string name="contexts_time_sat">Sat</string>
+    <string name="contexts_time_sun">Sun</string>
+    <string name="contexts_time_this_year_on">This year on:</string>
+    <string name="contexts_location_name">Location context</string>
+    <string name="contexts_location_desc">The location context allows to define context dependencies based on the current location.</string>
+    <string name="contexts_location_change_coordinates">Change coordinates on map</string>
+    <string name="contexts_location_coordinates">Polygon coordinates</string>
+    <string name="contexts_location_uncertainty">Enclosing Uncertainty:</string>
+    <string name="contexts_location_hysteresis">Hysteresis:</string>
+    <string name="contexts_location_menu_header">Edit geo point</string>
+    <string name="contexts_location_add">Add here</string>
+    <string name="contexts_location_remove">Remove</string>
+    <string name="contexts_location_move">Move location</string>
+    <string name="contexts_location_clear">Clear all but one point</string>
+    <string name="contexts_location_negate">Negate</string>
+    <string name="contexts_location_moving">Long tap somewhere to move the point</string>
+    <string name="conflicts">Conflicts</string>
+
+    <!-- Conflicts between Presets -->
+    <string name="conflicts_between_presets">Conflicts between Presets</string>
+    <string name="conflicts_description">Below are listed all conflicts between Presets.</string>
+    <string name="conflicts_between_description">Below are listed all conflicts between the Presets: </string>
+    <string name="conflicts_no_conflicts">No conflicts where detected.</string>
+    <string name="conflicts_show">Show conflicts</string>
+    
+</resources>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:pmp="http://schemas.android.com/res/de.unistuttgart.ipvs.pmp"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/Title_add_preset"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <de.unistuttgart.ipvs.pmp.gui.view.BasicTitleView
+            android:id="@+id/Title_add"
+            pmp:name="@string/add_preset"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            pmp:icon="@drawable/icon_edit" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Title_edit_preset"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <de.unistuttgart.ipvs.pmp.gui.view.BasicTitleView
+            android:id="@+id/Title_edit"
+            pmp:name="@string/edit_preset"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            pmp:icon="@drawable/icon_edit" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/presets_dialog_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/name"
+                android:textAppearance="?android:attr/textAppearanceMedium" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/presets_dialog_name_textfield"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text" >
+
+                <requestFocus>
+                </requestFocus>
+            </EditText>
+
+            <TextView
+                android:id="@+id/presets_dialog_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/description"
+                android:textAppearance="?android:attr/textAppearanceMedium" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/presets_dialog_description_textfield"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="top|left"
+                android:inputType="textMultiLine"
+                android:lines="5"
+                android:scrollHorizontally="false" >
+            </EditText>
+
+            <LinearLayout
+                android:id="@+id/linearLayout1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="25dp"
+                android:baselineAligned="true"
+                android:gravity="center_horizontal|bottom"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/presets_dialog_confirm"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="@string/confirm" />
+
+                <Button
+                    android:id="@+id/presets_dialog_cancel"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="@string/cancel" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

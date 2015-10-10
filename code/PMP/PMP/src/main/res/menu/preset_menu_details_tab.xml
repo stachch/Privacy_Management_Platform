@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/preset_tab_details_change_description"
+        android:icon="@drawable/menu_change"
+        android:title="@string/edit_name_and_description"/>
+    <item
+        android:id="@+id/preset_tab_details_remove"
+        android:icon="@drawable/menu_delete"
+        android:title="@string/delete_preset_trash_bin"/>
+
+</menu>

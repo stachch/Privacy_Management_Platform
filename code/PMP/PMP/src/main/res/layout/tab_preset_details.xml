@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:pmp="http://schemas.android.com/res/de.unistuttgart.ipvs.pmp"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <de.unistuttgart.ipvs.pmp.gui.view.BasicTitleViewCompact
+                pmp:name="@string/description"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                pmp:icon="@drawable/icon_info" >
+            </de.unistuttgart.ipvs.pmp.gui.view.BasicTitleViewCompact>
+
+            <TextView
+                android:id="@+id/TextView_Description"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-3dp" />
+
+            <de.unistuttgart.ipvs.pmp.gui.view.BasicTitleViewCompact
+                pmp:name="@string/statistics"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                pmp:icon="@drawable/icon_statistics" >
+            </de.unistuttgart.ipvs.pmp.gui.view.BasicTitleViewCompact>
+
+            <TextView
+                android:id="@+id/TextView_Statistics"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-3dp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout_Problems"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <de.unistuttgart.ipvs.pmp.gui.view.BasicTitleViewCompact
+            pmp:name="@string/problems"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            pmp:icon="@drawable/icon_delete" >
+        </de.unistuttgart.ipvs.pmp.gui.view.BasicTitleViewCompact>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-3dp"
+            android:text="@string/preset_missing_apps_or_rgs" />
+
+        <include layout="@layout/view_divider_strong" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/Button_OneClickInstall"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="@string/button_one_click_install" />
+
+            <Button
+                android:id="@+id/Button_ViewMissingRGs"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="@string/button_view_missing_rgs" />
+
+            <Button
+                android:id="@+id/Button_RemoveMissingApps"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="@string/button_remove_missing_apps" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- General terms (sorted alphabetically) -->
+    <string name="about">Über</string>
+    <string name="about_the_app">Über die App</string>
+    <string name="add_preset">Preset hinzufügen</string>
+    <string name="apps">Apps</string>
+    <string name="app_details">App-Details</string>
+    <string name="app_service">App-Service</string>
+    <string name="app_version">Version 2.0</string>
+    <string name="assign_apps">Apps zuweisen</string>
+    <string name="assign_privacy_setting">Privacy Setting zuweisen</string>
+    <string name="privacy_settings">Privacy Settings</string>
+    <string name="available">verfügbar</string>
+    <string name="bind">Binden</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="change">Ändern</string>
+    <string name="change_value">Wert ändern</string>
+    <string name="change_newline_value">Wert\nändern</string>
+    <string name="choose_email_app">E-Mail-App auswählen&#8230;</string>
+    <string name="choose_your_action">Wählen Sie Ihre Aktion</string>
+    <string name="close">Schließen</string>
+    <string name="clear_trash_bin">Papierkorb leeren</string>
+    <string name="confirm">Bestätigen</string>
+    <string name="database">Datenbank</string>
+    <string name="delete_preset_permanently">Preset löschen</string>
+    <string name="delete_preset_trash_bin">Preset in Papierkorb verschieben</string>
+    <string name="description">Beschreibung</string>
+    <string name="details">Details</string>
+    <string name="disable">Ausschalten</string>
+    <string name="edit_deleted_preset">Gelöschtes Preset bearbeiten</string>
+    <string name="edit_name_and_description">Details bearbeiten</string>
+    <string name="edit_preset">Preset bearbeiten</string>
+    <string name="enable">Einschalten</string>
+    <string name="expert_mode">Experten-Modus</string>
+    <string name="export_presets">Presets exportieren</string>
+    <string name="hide_trash_bin">Papierkorb verstecken</string>
+    <string name="icon">Icon</string>
+    <string name="identifier">Bezeichner</string>
+    <string name="install">Installieren</string>
+    <string name="installed">Installiert</string>
+    <string name="import_presets">Presets importieren</string>
+    <string name="import_with_pmp">Mit PMP importieren</string>
+    <string name="last_update_at">Letzte Aktualisierung am:</string>
+    <string name="model">Modell</string>
+    <string name="name">Name</string>
+    <string name="new_string">Neu</string>
+    <string name="next_step">Nächster Schritt</string>
+    <string name="no">Nein</string>
+    <string name="open_app">App öffnen</string>
+    <string name="please_enter_a_name">Bitte einen Namen eingeben!</string>
+    <string name="pmp">Privatsphärenverwaltungsplattform</string>
+    <string name="presets">Presets</string>
+    <string name="problems">Probleme</string>
+    <string name="registered_apps">Registrierte Apps</string>
+    <string name="remove">Entfernen</string>
+    <string name="remove_app">App entfernen</string>
+    <string name="remove_privacy_setting">Privacy Setting entfernen</string>
+    <string name="required_privacy_settings">Benötigte Privacy Settings</string>
+    <string name="required_resources">Benötigte Ressourcen</string>
+    <string name="required_value">Benötigter Wert</string>
+    <string name="resources">Ressourcen</string>
+    <string name="resource_group">Ressource</string>
+    <string name="resource_groups">Ressourcengruppen</string>
+    <string name="restore_preset">Preset wiederherstellen</string>
+    <string name="revision">Revision</string>
+    <string name="save">Speichern</string>
+    <string name="search">Suchen</string>
+    <string name="send_email">E-Mail senden</string>
+    <string name="service_features">Service Features</string>
+    <string name="settings">Einstellungen</string>
+    <string name="set_value">Wert setzen</string>
+    <string name="show_details">Details anzeigen</string>
+    <string name="show_trash_bin">Papierkorb anzeigen</string>
+    <string name="statistics">Statistiken</string>
+    <string name="trash_bin">Papierkorb</string>
+    <string name="uninstall">Deinstallieren</string>
+    <string name="update">Update</string>
+    <string name="update_list">Update-Liste</string>
+    <string name="unregister_app">App deregistrieren</string>
+    <string name="value">Wert</string>
+    <string name="yes">Ja</string>
+
+    <!-- Main -->
+    <string name="main_description">Willkommen zur Privatsphärenverwaltungsplattform. Tippen Sie auf einen Knopf, um mit PMP zu interagieren. Sie können auch den Experten-Modus in den Einstellungen aktivieren.</string>
+
+    <plurals name="main_statistics_apps">
+        <item quantity="zero">- Keine Apps sind bereits registriert</item>
+        <item quantity="one">- 1 App ist bereits registriert</item>
+        <item quantity="other">- %d Apps sind bereits registriert</item>
+    </plurals>
+    <plurals name="main_statistics_rgs">
+        <item quantity="zero">- Keine Ressourcengruppen wurden installiert</item>
+        <item quantity="one">- 1 Ressourcengruppe wurde installiert</item>
+        <item quantity="other">- %d Ressourcengruppen wurden installiert</item>
+    </plurals>
+    <plurals name="main_statistics_presets">
+        <item quantity="zero">- Keine Presets sind erstellt worden</item>
+        <item quantity="one">- 1 Preset ist erstellt worden</item>
+        <item quantity="other">- %d Presets sind erstellt worden</item>
+    </plurals>
+
+    <string name="main_presets_disabled">Die Presets sind nur im Experten-Modus verfügbar, bitte aktivieren Sie ihn in den Einstellungen, um das Presets-Feature benutzen zu können.</string>
+
+    <!-- Settings -->
+    <string name="settings_expertmode_description">Aktiviert das Presets-Feature in PMP</string>
+    <string name="settings_preset_trash_bin_visible">Preset-Papierkorb sichtbar</string>
+    <string name="settings_preset_trash_bin_description">Anhaken um die in den Papierkorb verschobenen Presets anzuzeigen.</string>
+    <string name="settings_log_granularity_component_change">Komponentenänderungen aufzeichnen</string>
+    <string name="settings_log_granularity_component_change_desc">Zeichnet das Hinzufügen und Entfernen von Apps und Ressourcengruppen auf.</string>
+    <string name="settings_log_granularity_setting_change">Einstellungsänderungen aufzeichnen</string>
+    <string name="settings_log_granularity_setting_change_desc">Zeichnet die Änderungen, die durch Benutzereingaben ausgelöst wurden, auf.</string>
+    <string name="settings_log_granularity_context_change">Kontextänderungen aufzeichnen</string>
+    <string name="settings_log_granularity_context_change_desc">Zeichnet die Aktivität und den Einfluss von Kontexten auf.</string>
+    <string name="settings_log_granularity_setting_request">Einstellungsanfragen aufzeichnen</string>
+    <string name="settings_log_granularity_setting_request_desc">Zeichnet Anfragen für die aktuellen Werte von Apps oder Ressourcengruppen auf.</string>
+
+    <!-- Apps -->
+    <string name="apps_description">Alle Apps, die bei PMP registriert sind, werden hier aufgelistet. Wählen Sie eine App, um mehr Informationen anzuzeigen.</string>
+    <string name="apps_no_apps">Derzeit sind keine Apps bei PMP registriert. Installieren Sie eine kompatible App, um die Liste zu füllen.</string>
+
+    <!-- App Details -->
+    <string name="app_removed">App erfolgreich von PMP entfernt.</string>
+    <string name="app_not_opened">App kann nicht geöffnet werden.</string>
+    <string name="app_successfully_unregistered">App wurde erfolgreich von PMP entfernt.</string>
+
+    <!-- Service Features Tab/Dialog -->
+    <string name="service_feature_title">Details: %1$s</string>
+    <string name="ps_invalid_value">benötigter Wert ist ungültig</string>
+    <string name="tab_sfs_description_simplemode">Aktivierte Service Features sind grün und haben einen Haken. Deaktivierte Service Features sind rot und haben ein Kreuz. Ausgegraute Einträge sind nicht verfügbar, tippen Sie sie an, um mehr Details über das Warum zu erfahren.</string>
+    <string name="tab_sfs_description_expertmode">Aktivierte Service Features sind grün, deaktivierte Service Features sind rot. Im Experten-Modus können Sie diese ändern indem Sie Presets zur App hinzufügen.</string>
+    <string name="missing_rgs_description">Sie müssen die fehlenden Ressourcen installieren, bevor Sie das Service Feature nutzen können.</string>
+    <string name="missing_rgs_show">Fehlende Ressourcen anzeigen</string>
+    <string name="button_one_click_install">1-Klick\nInstallation</string>
+    <string name="button_view_missing_rgs">Fehlende\nRessourcen\nanzeigen</string>
+    <string name="button_create_new_preset">Neues Preset\nanlegen</string>
+    <string name="button_add_to_preset">Zu Preset\nhinzufügen</string>
+    <string name="app_sf_back_to_the_app">Fertig, zurück zur App.</string>
+    <string name="add_sf_to_preset">Service Feature zu Preset hinzufügen</string>
+    <string name="add_sf_to_preset_description">Fügt die Privacy Settings dieses Service Features zu einem Preset hinzu.</string>
+    <string name="failure_active_sf">Das Service Feature kann nicht aktiviert werden. Bitte wenden Sie sich an den App-Entwickler.</string>
+    <string name="failure_invalid_ps_in_sf">Das Service Feature enthält ungültige Privacy Settings. Bitte wenden Sie sich an den App-Entwickler.</string>
+
+    <!-- App-Presets Tab -->
+    <string name="tab_presets_description_simplemode">Sie können nur das Presets-Feature nutzen, wenn Sie den Experten-Modus in den Einstellungen aktivieren.</string>
+    <string name="tab_presets_description_expertmode">Sie können ein Preset antippen, um es zu ändern oder das Menü, um ein anderes Preset dieser App zuzuweisen.</string>
+    <string name="tab_presets_no_presets">Zurzeit sind keine Presets dieser App zugewiesen. Weisen Sie einige Presets zu, um die Liste zu füllen.</string>
+
+    <!-- ResourceGroups -->
+    <string name="rg_fetching_resources">Hole Ressourcen vom Server.\nBitte warten…</string>
+    <string name="rg_server_not_available">Der Update-Server war nicht erreichbar oder keine passenden Ressourcen wurden gefunden.</string>
+    <string name="rg_removed_success">Die Ressource wurde erfolgreich entfernt. Starte PMP neu, bitte eine Sekunde warten.</string>
+    <string name="rg_processing_installation">Vearbeite Installationsanfrage…</string>
+    <string name="rg_confirm_remove">Bestätigen Sie das Entfernen der Ressource</string>
+    <string name="rg_confirm_description">Die Ressource \'%1$s\' wird entfernt. Wenn Sie dies bestätigen werden alle gespeicherten Daten der Ressource ebenfalls gelöscht.</string>
+    <string name="rgs_installed_no_rgs">Zurzeit sind keine Ressourcen installiert. Installieren Sie eine Ressource mit Hilfe des \'Verfügbar\'-Tabs, um die Liste zu füllen.</string>
+    <string name="install_progress_overall">Gesamtfortschritt</string>
+    <string name="install_progress_task">Fortschritt der aktuellen Aufgabe</string>
+    <string name="rg_not_found">Die Ressource \'%1$s\' wurde nicht auf dem Server gefunden und kann nicht installiert werden.</string>
+
+    <!-- Overview of Presets -->
+    <string name="presets_description">Alle existierenden Presets werden hier aufgelistet. Wäheln Sie ein Preset, um mehr Informationen anzuzeigen.</string>
+    <string name="presets_alert_clear_trash_bin">Sind Sie sicher, dass Sie den Papierkorb leeren möchten?</string>
+    <string name="presets_no_presets_existing">Es gibt zurzeit keine Presets.</string>
+    <string name="presets_trash_bin_empty">Der Papierkorb ist leer.</string>
+
+    <string name="presets_import_export_title">Die Presets auswählen</string>
+    <string name="presets_import_export_override_decription">Existierende Presets überschreiben</string>
+    
+    <string name="presets_export_title">Die ID der Preset-Menge</string>
+    <string name="presets_export_email_subject">Preset-Menge für PMP</string>
+    <string name="presets_export_email_body">Hallo,\nIch habe eine Preset-Menge erstellt und sie auf die PMP-Website hochgeladen.\nSie können sie mit Hilfe des Links herunterladen oder einfach ihre PMP-App öffnen und die Preset-Menge importieren mit der folgenden ID.\n\nLink: http://pmp-android.no-ip.org:3134/%1$s \nID: %1$s\n\nTschüss.</string>
+    <string name="presets_export_description">Lang anfassen auf der ID kopiert sie.</string>
+    <string name="presets_export_copy_success">ID kopiert.</string>
+    
+    <string name="presets_import_title">Die ID der Preset-Menge eingeben</string>
+    <string name="presets_import_failed">Konnte die Preset-Menge nicht importieren, vielleicht eine inkompatible Version.</string>
+    <string name="presets_import_succeed">Presets erfolgreich importiert.</string>
+    
+    <string name="presets_export_upload_title">Hochladen in Bearbeitung&#8230;</string>
+    <string name="presets_export_upload_message">Bitt warten Sie einen Moment bis das Hochladen fertiggestellt ist.</string>
+    <string name="presets_export_upload_failed">Konnte das Preset nicht hochladen, Sie können es erneut versuchen.</string>
+    <string name="presets_import_download_title">Herunterladen in Bearbeitung&#8230;</string>
+    <string name="presets_import_download_message">Bitte warten Sie einen Moment bis das Herunterladen fertiggestellt ist.</string>
+    <string name="presets_import_download_failed">Konnte das Preset nicht herunterladen, Sie können es erneut mit einer anderen ID versuchen.</string>
+    
+    <!-- One Preset / Tab: Details -->
+    <string name="preset_missing_apps_or_rgs">Das Preset wurde deaktiviert weil Ressourcen fehlenoder eine zugewiesene App entfernt wurde.\nBenutzen Sie die Knöpfe unten, um die Probleme zu lösen.</string>
+    <string name="button_remove_missing_apps">Fehlende\nApps entfernen</string>
+
+    <!-- One Preset / Tab: Apps -->
+    <string name="preset_tab_apps_no_apps_assigned">Es sind zurzeit keine Apps zugewiesen.\nKlicken Sie auf das Menü, um Apps zuzuweisen.</string>
+    <string name="preset_tab_apps_all_apps_assigned">Alle zurzeit verfügbaren Apps sind bereits zugewiesen.</string>
+
+    <!-- One Preset / Tab: Privacy Settings -->
+    <string name="preset_tab_pss_no_pss_assigned">Es sind zurzeit keine Privacy Settings zugewiesen.\nKlicken Sie auf das Menü, um Privacy Settings zuzuweisen.</string>
+    <string name="preset_tab_pss_all_pss_already_assigned">Alle zurzeit verfügbaren Privacy Settings sind bereits zugewiesen.</string>
+    <string name="preset_confirm_remove_ps">Entfernen des Privacy Settings bestätigen</string>
+    <string name="preset_confirm_remove_ps_description">Das Privacy Setting \'%1$s\' wird entfernt werden. Wenn Sie dies bestätigen werden alle im Privacy Setting gespeicherten Daten ebenfalls gelöscht.</string>
+    <string name="preset_removed_ps_success">Das Privacy Setting wurde erfolgreich vom Preset entfernt.</string>
+    <string name="preset_invalid_ps_value">Der aktuelle Wert des Privacy Settings ist ungültig, wechsle auf den Standardwert.</string>
+    <string name="add_context">Kontext hinzufügen</string>
+    <string name="failure_invalid_ps_value">Der neue Privacy-Setting-Wert ist ein ungültiger, Speichern fehlgeschlagen. Versuchen Sie es erneut.</string>
+    <string name="failure_invalid_context_value">Der neue Privacy-Setting-Wert ist ein ungültiger, Speichern fehlgeschlagen. Versuchen Sie es erneut.</string>
+
+    <!-- Context Dialog -->
+	<string name="context_select_context_type">Wählen Sie einen Kontexttyp</string>
+	<string name="context_value_when_active">Wert wenn aktiv</string>
+
+    <!-- About the app -->
+    <string name="about_text">Die Privatsphärenverwaltungsplattform wird als ein Forschungsprojekt an der Universität Stuttgart entwickelt.</string>
+
+    <!-- Developer console -->
+    <string name="dev_con_launcher_activity">Raketenwerfer-Aktivität</string>
+    <string name="dev_con_description">Entwickler-Prüfungskontrollen. Wenn Sie nicht wissen, was ein Knopf tut, drücken Sie ihn nicht!</string>
+    <string name="dev_con_mockup_state">Modell-Umleitungs Attrappen-Status:</string>
+    <string name="dev_con_toggle_button">Kippknopf</string>
+    <string name="dev_con_precache_model">Modell vorspeichern</string>
+    <string name="dev_con_clear_model_cache">Modellspeicher leeren</string>
+    <string name="dev_con_clear_db_table">Datenbanktabellen säubern</string>
+    <string name="dev_con_apps_path">de.unistuttgart.ipvs.pmp.apps.</string>
+    <string name="dev_con_id">ID:</string>
+    <string name="dev_con_rgs_path">de.unistuttgart.ipvs.pmp.resourcegroups.</string>
+    <string name="dev_con_table_of_contents">Inhaltsverzeichnis (Totale Prüfung)</string>
+    <string name="dev_con_svc_nfc">Kontext-Service-Kram</string>
+    <string name="dev_con_svc_nfc_calc">Kontext-Neuberechnung forcieren</string>
+
+    <!-- Service Notification -->
+    <string name="svc_nfc_title">PMP</string>
+    <string name="svc_nfc_extended_title">PMP-Service</string>
+    <string name="svc_nfc_description">PMP</string>
+
+    <!-- Contexts -->
+    <string name="contexts_time_name">Zeitkontext</string>
+    <string name="contexts_time_desc">Der Zeitkontext erlaubt es, Kontextabhängigkeiten basierend auf der aktuellen Zeit zu definieren.</string>
+    <string name="contexts_time_begin_time">Anfang:</string>
+    <string name="contexts_time_end_time">Ende:</string>
+    <string name="contexts_time_whole_day">Ganzer Tag</string>
+    <string name="contexts_time_time_with_phone">die Zeitzone des Handys beibehalten</string>
+    <string name="contexts_time_time_with_location">die Zeitzone des Ortes beibehalten</string>
+    <string name="contexts_time_interval">Intervall:</string>
+
+    <string-array name="contexts_time_intervals">
+        <item>Täglich</item>
+        <item>Wöchentlich</item>
+        <item>Monatlich</item>
+        <item>Jährlich</item>
+    </string-array>
+
+    <string name="contexts_time_mon">Mon</string>
+    <string name="contexts_time_tue">Die</string>
+    <string name="contexts_time_wed">Mit</string>
+    <string name="contexts_time_thu">Don</string>
+    <string name="contexts_time_fri">Fri</string>
+    <string name="contexts_time_sat">Sam</string>
+    <string name="contexts_time_sun">Son</string>
+    <string name="contexts_time_this_year_on">Dieses Jahr am:</string>
+    <string name="contexts_location_name">Ortskontext</string>
+    <string name="contexts_location_desc">Der Ortskontext erlaubt es, Kontextabhängigkeiten basierend auf dem aktuellen Ort zu definieren.</string>
+    <string name="contexts_location_change_coordinates">Koordinaten auf Karte ändern</string>
+    <string name="contexts_location_coordinates">Polygon-Koordinaten</string>
+    <string name="contexts_location_uncertainty">Umschließende Unsicherheit:</string>
+    <string name="contexts_location_hysteresis">Hysterese:</string>
+    <string name="contexts_location_menu_header">Geo-Punkt bearbeiten</string>
+    <string name="contexts_location_add">Hier einfügen</string>
+    <string name="contexts_location_remove">Entfernen</string>
+    <string name="contexts_location_move">Ort bewegen</string>
+    <string name="contexts_location_clear">Alles bis auf einen Punkt löschen</string>
+    <string name="contexts_location_negate">Umkehren</string>
+    <string name="contexts_location_moving">einen Ort lang antippen, um den Punkt zu verschieben</string>
+    
+</resources>

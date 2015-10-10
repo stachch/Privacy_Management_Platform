@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:pmp="http://schemas.android.com/res/de.unistuttgart.ipvs.pmp"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/LinearLayout_Toggle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_presets" />
+
+        <TextView
+            android:id="@+id/TextView_PresetName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:text="@string/presets"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <ImageView
+            android:id="@+id/ImageView_ExandedState"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/icon_expand_closed" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout_DetailsContainer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/context_conflict_description_inner" />
+
+        <LinearLayout
+            android:id="@+id/LinearLayout_PrivacySettingsConflict"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <de.unistuttgart.ipvs.pmp.gui.view.BasicTitleViewCompact
+                pmp:name="@string/context_conflict_ps_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                pmp:icon="@drawable/icon_alert" />
+
+            <TextView
+                android:id="@+id/TextView_PS_Description"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/Button_ChangePrivacySetting"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/change" />
+
+                <Button
+                    android:id="@+id/Button_RemovePrivacySetting"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/remove" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LinearLayout_ContextConflicts"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <de.unistuttgart.ipvs.pmp.gui.view.BasicTitleViewCompact
+                pmp:name="@string/context_conflict_contexts_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                pmp:icon="@drawable/icon_alert" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/contxt_conflict_contexts_description" />
+
+            <LinearLayout
+                android:id="@+id/LinearLayout_ConflictingContexts"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+            </LinearLayout>
+        </LinearLayout>
+
+        <de.unistuttgart.ipvs.pmp.gui.view.BasicTitleViewCompact
+            pmp:name="@string/context_conflict_apps_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            pmp:icon="@drawable/icon_alert" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/contxt_conflict_apps_description" />
+
+        <LinearLayout
+            android:id="@+id/LinearLayout_ConflictingApps"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

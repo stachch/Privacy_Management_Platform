@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resourceGroupInformationSet>
+	<resourceGroupInformation
+		identifier="gov.gps"
+		icon="location.of.the.icon"
+		className="xy">
+		<name lang="en">GPS</name>
+		<description lang="en">The official GPS resource from the DoD that can track you - I mean - you can track your position.</description>
+	</resourceGroupInformation>
+	<privacySettings>
+		<privacySetting
+			identifier="findloc"
+			validValueDescription="'true' and 'false' are valid values.">
+			<name lang="en">Find Location</name>
+			<description lang="en">May find your location. May maybe not.</description>
+		</privacySetting>
+		<privacySetting
+			identifier="modify"
+			validValueDescription="'true' and 'false' are valid values.">
+			<name lang="en">Modify</name>
+			<description lang="en">Gives the permission to modify your location (physically).</description>
+		</privacySetting>
+		<privacySetting
+			identifier="missiles"
+			validValueDescription="'true' and 'false' are valid values.">
+			<name lang="en">Set Tomahawk Missile Target</name>
+			<description lang="en">Errr... I forgot what that one was for...</description>
+		</privacySetting>		
+	</privacySettings>
+</resourceGroupInformationSet>
