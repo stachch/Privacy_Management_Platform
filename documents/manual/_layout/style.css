@@ -1,0 +1,368 @@
+﻿body {
+	background-color: #eeeeee;
+}
+
+body, div, nav, span, a, h1, h2, h3, h4 {
+	font-family: Calibri, Helvetica, Verdana, Tahoma, Arial, sans-serif;
+	font-size: 1em;
+}
+
+div#page-head-title {
+	font-size: 1.5em;
+	font-weight: bold;
+	color: #365f91;
+	margin-bottom: 50px;
+	border-bottom: 1px solid #000000;
+}
+
+div#page-head-date {
+	font-size: 1.5em;
+	font-weight: bold;
+	color: #365f91;
+	text-align: center;
+	float: right;
+}
+
+div#page-title {
+	font-size: 3.0em;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+div#page-version {
+	font-size: 1.5em;
+	text-align: center;
+	margin-bottom: 80px;
+}
+
+div.pagebreak {
+	line-height: 0;
+	font-size: 0;
+}
+
+div.clear {
+	clear: both;
+}
+
+h1, h2, h3, h4 {
+	margin: 0;
+	margin-bottom: 0.3em;
+	padding: 0;
+	font-weight: bold;
+	text-decoration: none;
+	clear: both;
+}
+
+h1 span.numberator,
+h2 span.numberator,
+h3 span.numberator,
+h4 span.numberator {
+	display: block;
+	float: left;
+	padding-right: 10px;
+}
+
+h1 {
+	font-size: 2em;
+	color: #365f91;
+	border-bottom: 1px solid #000000;
+	margin-top: 2em;
+}
+
+h2 {
+	font-size: 1.6em;
+	margin-top: 1.0em;
+}
+
+h3 {
+	font-size: 1.3em;
+	margin-top: 1.0em;
+}
+
+h4 {
+	font-size: 1.2em;
+	margin-top: 1.0em;
+}
+
+p {
+	margin-top: 0;
+	padding-top: 0;
+}
+
+div#wrapper {
+	position: relative;
+	width: 530pt;
+	left: 50%;
+	margin-left: -200px;
+	margin-bottom: 15px;
+	padding: 30pt;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	box-shadow: 5px 5px 5px #555555;
+	background-color: #ffffff;
+}
+/* Automatic orientation of the navigation */
+div#wrapper.innerNavigation {
+		margin: auto;
+		left: 0;
+}
+
+/* Navigation */
+nav {
+	position: fixed;
+	top: 0;
+	left: 50%;
+	color: #000000;
+	margin: 10px;
+	padding: 10px;
+	margin-left: -550px;
+	width: 230pt;
+	max-height: 95%;
+	overflow: auto;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	box-shadow: 5px 5px 5px #555555;
+	background-color: #ffffff;
+}
+
+/* Automatic orientation of the navigation */
+nav.innerNavigation {
+		position: static;
+		width: auto;
+		margin: 0;
+		padding: 0;
+		left: 0;
+		box-shadow: none;
+		border: 0;
+}
+
+nav div.title {
+	font-size: 1.5em;
+	font-weight: bold;
+	color: #365f91;
+	border-bottom: 1px solid #000000;
+	padding-top: 10pt;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+nav ul li {
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li a {
+	color: #000000;
+	text-decoration: none;
+	display: block;
+}
+nav ul li a:hover {
+	background-color: #dddddd;
+}
+
+nav ul li.h1-title {
+	padding-left: 20px;
+	font-weight: bold;
+}
+nav ul li.h2-title {
+	padding-left: 40px;
+}
+nav ul li.h3-title {
+	padding-left: 60px;
+}
+nav ul li.h4-title {
+	padding-left: 80px;
+}
+
+/* Labels */
+label {
+	width: 100px;
+	float: left;
+}
+
+/* Tables */
+table { 
+	width: 100%; 
+	border: 1px solid #000000; 
+	border-spacing: 2px 2px;
+	margin-top: 5px;
+}
+
+td, th {
+	vertical-align:top;
+	margin: 0;
+	padding: 2px 5px 2px 5px;
+}
+
+tr:nth-child(2n+1) td {
+	background-color: #dddddd;
+	border-bottom: 1px solid #bbbbbb;
+}
+tr:nth-child(2n) td {
+	background-color: #eeeeee;
+	border-bottom: 1px solid #cccccc;
+}
+tr:nth-last-child(1) td {
+	border-bottom: none;
+}
+
+th {
+	background-color: #cccccc;
+	text-align: left;
+	border-bottom: 2px solid #000000;
+}
+th.left {
+	border-bottom: 1px solid #cccccc;
+	border-right: 2px solid #000000;
+	width: 125px;
+}
+
+td ul, td ol {
+	margin: 0;
+	padding-left: 15px;
+	margin-left: 5px;
+}
+
+span.reference a, a {
+	color: #365f91;
+	text-decoration: underline;
+}
+
+img.left {
+	float: left;
+	margin-right: 10px;
+	border: 1px solid #cccccc;
+}
+
+
+img.right {
+	float: right;
+	margin-left: 10px;
+	border: 1px solid #cccccc;
+}
+
+/* specification specific layout */
+th.left span.uc-sf {
+	float: right;
+	font-weight: bold;
+}
+
+span.up-annotation {
+	border-bottom: 1px solid #ff8c00;
+	font-weight: bold;
+	background-color: #fff;
+	color: #ff8c00;
+	padding: 2px 0.5em;
+	display: block;
+	margin-top: -1px;
+	margin-left: -5px;
+	margin-right: -5px;
+	margin-bottom: 3px;
+}
+
+/* UserInterfacePrototype-Container */
+div.uip {
+	margin-bottom: 10px;
+	padding: 5px;
+	background-color: #f7f7f7;
+	border: 1px solid #555555;
+	box-shadow: 2px 2px 2px #999999;
+	clear: both;
+}
+
+/* Test-Criticism */
+div.criticism {
+	border-color: red;
+	border-width: 0.75em;
+	border-style: none none none double;
+	padding-left: 0.75em;
+}
+
+span.fail,td.fail {
+	font-weight: bold;
+	text-transform: uppercase;
+	color: red;
+}
+
+span.success,td.success {
+	color: #0A6100;
+}
+
+/* Modification of specification */
+div.sp-del,
+div.sp-add,
+div.sp-edit {
+	border-width: 0.4em;
+	border-style: none none none solid;
+	padding-left: 0.75em;
+	margin-left: 10px;
+}
+
+div.sp-del {
+	border-color: red;
+}
+
+div.sp-add {
+	border-color: green;
+}
+
+div.sp-edit {
+	border-color: orange;
+}
+
+div.sp-del span.title,
+div.sp-add span.title,
+div.sp-edit span.title {
+	text-align: right;
+	width: 300px;
+	height: 0px;
+	display: block;
+	font-weight: bold;
+	position: relative;
+	padding-right: 310px;
+	margin-left: -345px;
+	margin-top: 0px;
+	margin-right: 100px;
+	margin-bottom: 0px;
+	writing-mode:tb-rl;
+	-webkit-transform:rotate(270deg);
+	-moz-transform:rotate(270deg);
+	-o-transform: rotate(270deg);
+	transform: rotate(270deg);
+	white-space:nowrap;
+}	
+
+div.sp-del span.title {
+	color: red;
+}
+
+div.sp-add span.title {
+	color: green;
+}
+
+div.sp-edit span.title {
+	color: orange;
+}
+
+iframe {
+	border: none;
+	width: 100%;
+}
+
+p.print_only {
+	display: none;
+}
+
+span.highlight {
+	font-family: monospace;
+	font-size: 90%;
+	padding-bottom: 0.1em;
+	color: orange;
+}
