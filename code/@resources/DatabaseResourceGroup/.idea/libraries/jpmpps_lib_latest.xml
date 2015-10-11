@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jpmpps-lib-latest">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/PMPAPI/libs/jpmpps-lib-latest.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

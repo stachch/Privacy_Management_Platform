@@ -29,12 +29,12 @@ import android.widget.TextView;
 import android.widget.Toast;
 import de.unistuttgart.ipvs.pmp.R;
 import de.unistuttgart.ipvs.pmp.gui.util.model.ModelProxy;
-import de.unistuttgart.ipvs.pmp.gui.view.BasicTitleView;
 import de.unistuttgart.ipvs.pmp.jpmpps.model.LocalizedResourceGroup;
 import de.unistuttgart.ipvs.pmp.model.exception.InvalidPluginException;
 import de.unistuttgart.ipvs.pmp.model.exception.InvalidXMLException;
 import de.unistuttgart.ipvs.pmp.model.server.IServerDownloadCallback;
 import de.unistuttgart.ipvs.pmp.model.server.ServerProvider;
+import de.unistuttgart.ipvs.pmp.shared.gui.view.BasicTitleView;
 
 /**
  * The {@link DialogAvailableDetails} displays informations about an available Resourcegroup.

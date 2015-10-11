@@ -6,7 +6,7 @@
     android:minWidth="280dip"
     android:orientation="vertical" >
 
-    <de.unistuttgart.ipvs.pmp.gui.view.BasicTitleView
+    <de.unistuttgart.ipvs.pmp.shared.gui.view.BasicTitleView
         android:id="@+id/Title"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"

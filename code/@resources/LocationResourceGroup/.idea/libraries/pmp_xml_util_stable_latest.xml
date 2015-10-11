@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="pmp-xml-util-stable-latest">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/PMPAPI/libs/pmp-xml-util-stable-latest.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -37,7 +37,6 @@ import android.view.View.OnCreateContextMenuListener;
 import android.widget.ExpandableListView;
 import android.widget.TextView;
 import android.widget.Toast;
-import de.unistuttgart.ipvs.pmp.Log;
 import de.unistuttgart.ipvs.pmp.R;
 import de.unistuttgart.ipvs.pmp.gui.context.DialogContextChange;
 import de.unistuttgart.ipvs.pmp.gui.privacysetting.DialogPrivacySettingEdit;
@@ -50,7 +49,8 @@ import de.unistuttgart.ipvs.pmp.gui.util.model.ModelProxy;
 import de.unistuttgart.ipvs.pmp.model.element.preset.IPreset;
 import de.unistuttgart.ipvs.pmp.model.element.privacysetting.IPrivacySetting;
 import de.unistuttgart.ipvs.pmp.model.element.resourcegroup.IResourceGroup;
-import de.unistuttgart.ipvs.pmp.resource.privacysetting.PrivacySettingValueException;
+import de.unistuttgart.ipvs.pmp.shared.Log;
+import de.unistuttgart.ipvs.pmp.shared.resource.privacysetting.PrivacySettingValueException;
 
 /**
  * The "Assigned Privacy Settings" tab of a Preset

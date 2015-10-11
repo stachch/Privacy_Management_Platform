@@ -31,8 +31,8 @@ import de.unistuttgart.ipvs.pmp.R;
 import de.unistuttgart.ipvs.pmp.gui.util.ActivityKillReceiver;
 import de.unistuttgart.ipvs.pmp.gui.util.GUIConstants;
 import de.unistuttgart.ipvs.pmp.gui.util.model.ModelProxy;
-import de.unistuttgart.ipvs.pmp.gui.view.BasicTitleView;
 import de.unistuttgart.ipvs.pmp.model.element.preset.IPreset;
+import de.unistuttgart.ipvs.pmp.shared.gui.view.BasicTitleView;
 
 /**
  * Activity of one Preset. It contains two tabs: "Assigned Apps" and "Assigned Privacy Settings"

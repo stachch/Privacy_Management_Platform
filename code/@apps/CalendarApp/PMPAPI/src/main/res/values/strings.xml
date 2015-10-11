@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="pmp_api_add_item">Add item</string>
+    
+    <string name="pmp_api_undefined">- UNDEFINED -</string>
+    <string name="pmp_api_pmp">Privacy Management Platform</string>
+
+    <!-- Registration Dialog/Activity -->
+    <string name="pmp_api_registration_title">Preparing the App</string>
+    <string name="pmp_api_registration_step_1">Prepare &amp; detect PMP</string>
+    <string name="pmp_api_registration_step_2">Check registration</string>
+    <string name="pmp_api_registration_step_3">Registration at PMP</string>
+    <string name="pmp_api_registration_step_4">Set initial Service Features</string>
+    <string name="pmp_api_registration_step_5">Open the App</string>
+    <string name="pmp_api_registration_failure_mainactivity">Registration has failed. Contact the developer of the App. (Error message: "No MainActivity was defined in the AndroidManifest.xml")</string>
+    <string name="pmp_api_registration_failure_pmp_missing">Registration has failed, PMP is not installed. Try that first and reopen the App afterwards.</string>
+    <string name="pmp_api_registration_failure_registration_rejected">Registration failed, PMP rejected the installation. Try to contact the developer of the App. (Detailed error message below)</string>
+    <string name="pmp_api_registration_exit_app">Exit App</string>
+    <string name="pmp_api_registration_select_sf_description">Registration successful. By clicking on the button below you select the initial Service Features and start using the App.</string>
+    <string name="pmp_api_registration_select_sf">Select initial Service Features</string>
+    <string name="pmp_api_registration_open_app_description">Almost finished, click on the "Open App" button to start.</string>
+    <string name="pmp_api_registration_open_app">Open App</string>
+
+    <!-- Request Service Feature dialog -->
+    <string name="pmp_api_service_feature_title">Missing Service Feature</string>
+    <string name="pmp_api_service_feature_description">This action requires one or more Service Features enabled.\nEnable all orange highlighted Service Features to use this Feature of the App.</string>
+    <string name="pmp_api_service_feature_show_sf">Select Service Features</string>
+    <string name="pmp_api_service_feature_skip">Skip</string>
+
+</resources>

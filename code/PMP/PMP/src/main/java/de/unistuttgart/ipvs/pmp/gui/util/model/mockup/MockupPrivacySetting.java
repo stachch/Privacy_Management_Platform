@@ -22,7 +22,7 @@ package de.unistuttgart.ipvs.pmp.gui.util.model.mockup;
 import de.unistuttgart.ipvs.pmp.model.element.ElementPersistenceProvider;
 import de.unistuttgart.ipvs.pmp.model.element.ModelElement;
 import de.unistuttgart.ipvs.pmp.model.element.privacysetting.PrivacySetting;
-import de.unistuttgart.ipvs.pmp.resource.privacysetting.AbstractPrivacySetting;
+import de.unistuttgart.ipvs.pmp.shared.resource.privacysetting.AbstractPrivacySetting;
 
 /**
  * 

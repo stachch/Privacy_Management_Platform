@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/new_appointment"
+        android:icon="@drawable/add_appointment"
+        android:title="@string/new_todo"/>
+
+    <item
+        android:id="@+id/delete_all_appointments"
+        android:icon="@drawable/delete_all_appointments"
+        android:title="@string/delete_all_appointments"/>
+
+    <item
+        android:id="@+id/import_appointments"
+        android:icon="@drawable/menu_import"
+        android:title="@string/import_appointments"/>
+
+    <item
+        android:id="@+id/export_appointments"
+        android:icon="@drawable/menu_export"
+        android:title="@string/export_appointments"/>
+
+</menu>

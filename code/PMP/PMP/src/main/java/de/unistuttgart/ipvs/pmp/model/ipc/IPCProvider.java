@@ -29,19 +29,19 @@ import java.util.concurrent.atomic.AtomicInteger;
 import android.os.Bundle;
 import android.os.IBinder;
 import android.os.RemoteException;
-import de.unistuttgart.ipvs.pmp.Log;
 import de.unistuttgart.ipvs.pmp.PMPApplication;
-import de.unistuttgart.ipvs.pmp.api.ipc.IPCConnection;
 import de.unistuttgart.ipvs.pmp.model.assertion.Assert;
 import de.unistuttgart.ipvs.pmp.model.assertion.ModelMisuseError;
 import de.unistuttgart.ipvs.pmp.model.element.servicefeature.ServiceFeature;
-import de.unistuttgart.ipvs.pmp.service.app.IAppService;
+import de.unistuttgart.ipvs.pmp.shared.Log;
+import de.unistuttgart.ipvs.pmp.shared.api.ipc.IPCConnection;
+import de.unistuttgart.ipvs.pmp.shared.service.app.IAppService;
 
 /**
  * General IPC provider which provides all the inter-process communication necessary for the model.
  * 
  * @author Tobias Kuhn
- * 
+ *         
  */
 public class IPCProvider {
     

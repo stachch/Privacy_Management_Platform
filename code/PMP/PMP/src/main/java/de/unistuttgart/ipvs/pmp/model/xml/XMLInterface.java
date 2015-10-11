@@ -33,7 +33,7 @@ import de.unistuttgart.ipvs.pmp.model.element.privacysetting.IPrivacySetting;
 import de.unistuttgart.ipvs.pmp.model.element.resourcegroup.IResourceGroup;
 import de.unistuttgart.ipvs.pmp.model.exception.InvalidConditionException;
 import de.unistuttgart.ipvs.pmp.model.ipc.IPCProvider;
-import de.unistuttgart.ipvs.pmp.resource.privacysetting.PrivacySettingValueException;
+import de.unistuttgart.ipvs.pmp.shared.resource.privacysetting.PrivacySettingValueException;
 import de.unistuttgart.ipvs.pmp.xmlutil.presetset.IPresetAssignedApp;
 import de.unistuttgart.ipvs.pmp.xmlutil.presetset.IPresetAssignedPrivacySetting;
 import de.unistuttgart.ipvs.pmp.xmlutil.presetset.IPresetPSContext;

@@ -26,7 +26,7 @@ import android.view.Window;
 import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import de.unistuttgart.ipvs.pmp.R;
-import de.unistuttgart.ipvs.pmp.gui.view.BasicTitleView;
+import de.unistuttgart.ipvs.pmp.shared.gui.view.BasicTitleView;
 
 public class TwoRowProgressBar extends Dialog {
     

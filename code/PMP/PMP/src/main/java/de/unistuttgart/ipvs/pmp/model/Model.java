@@ -37,10 +37,7 @@ import java.util.logging.Level;
 import android.content.pm.PackageManager.NameNotFoundException;
 import android.os.IBinder;
 import android.os.RemoteException;
-import de.unistuttgart.ipvs.pmp.Constants;
-import de.unistuttgart.ipvs.pmp.Log;
 import de.unistuttgart.ipvs.pmp.PMPApplication;
-import de.unistuttgart.ipvs.pmp.api.ipc.IPCConnection;
 import de.unistuttgart.ipvs.pmp.model.assertion.Assert;
 import de.unistuttgart.ipvs.pmp.model.assertion.ModelIntegrityError;
 import de.unistuttgart.ipvs.pmp.model.assertion.ModelMisuseError;
@@ -68,9 +65,12 @@ import de.unistuttgart.ipvs.pmp.model.exception.PluginNotFoundException;
 import de.unistuttgart.ipvs.pmp.model.ipc.IPCProvider;
 import de.unistuttgart.ipvs.pmp.model.plugin.PluginProvider;
 import de.unistuttgart.ipvs.pmp.model.server.ServerProvider;
-import de.unistuttgart.ipvs.pmp.resource.Resource;
-import de.unistuttgart.ipvs.pmp.resource.privacysetting.AbstractPrivacySetting;
-import de.unistuttgart.ipvs.pmp.service.pmp.RegistrationResult;
+import de.unistuttgart.ipvs.pmp.shared.Constants;
+import de.unistuttgart.ipvs.pmp.shared.Log;
+import de.unistuttgart.ipvs.pmp.shared.api.ipc.IPCConnection;
+import de.unistuttgart.ipvs.pmp.shared.resource.Resource;
+import de.unistuttgart.ipvs.pmp.shared.resource.privacysetting.AbstractPrivacySetting;
+import de.unistuttgart.ipvs.pmp.shared.service.pmp.RegistrationResult;
 import de.unistuttgart.ipvs.pmp.util.FileLog;
 import de.unistuttgart.ipvs.pmp.xmlutil.XMLUtilityProxy;
 import de.unistuttgart.ipvs.pmp.xmlutil.ais.IAIS;
@@ -419,7 +419,7 @@ public class Model implements IModel, Observer {
             }
             
             // check it is valid
-            de.unistuttgart.ipvs.pmp.resource.ResourceGroup rg = PluginProvider.getInstance().getResourceGroupObject(
+            de.unistuttgart.ipvs.pmp.shared.resource.ResourceGroup rg = PluginProvider.getInstance().getResourceGroupObject(
                     rgPackage);
             // inconsistencies
             if (!rgPackage.equals(rgis.getIdentifier())) {

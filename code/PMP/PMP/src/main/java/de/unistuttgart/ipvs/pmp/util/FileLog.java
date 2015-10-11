@@ -27,9 +27,9 @@ import java.util.logging.LogRecord;
 import java.util.logging.SimpleFormatter;
 
 import android.content.Context;
-import de.unistuttgart.ipvs.pmp.Log;
 import de.unistuttgart.ipvs.pmp.PMPApplication;
 import de.unistuttgart.ipvs.pmp.gui.util.PMPPreferences;
+import de.unistuttgart.ipvs.pmp.shared.Log;
 
 /**
  * {@link FileHandler} to log certain events that shall actually be logged to a file.

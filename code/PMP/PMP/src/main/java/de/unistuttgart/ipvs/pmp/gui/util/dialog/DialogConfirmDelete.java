@@ -26,7 +26,7 @@ import android.view.Window;
 import android.widget.Button;
 import android.widget.TextView;
 import de.unistuttgart.ipvs.pmp.R;
-import de.unistuttgart.ipvs.pmp.gui.view.BasicTitleView;
+import de.unistuttgart.ipvs.pmp.shared.gui.view.BasicTitleView;
 
 /**
  * The {@link DialogConfirmDelete} can be used to confirm a delete or remove action which should be made carefully.

@@ -24,7 +24,6 @@ import java.util.logging.Level;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.IntentFilter;
-import de.unistuttgart.ipvs.pmp.Log;
 import de.unistuttgart.ipvs.pmp.PMPApplication;
 import de.unistuttgart.ipvs.pmp.model.Model;
 import de.unistuttgart.ipvs.pmp.model.PersistenceConstants;
@@ -32,9 +31,10 @@ import de.unistuttgart.ipvs.pmp.model.PresetController;
 import de.unistuttgart.ipvs.pmp.model.element.app.IApp;
 import de.unistuttgart.ipvs.pmp.model.element.privacysetting.IPrivacySetting;
 import de.unistuttgart.ipvs.pmp.model.element.resourcegroup.IResourceGroup;
-import de.unistuttgart.ipvs.pmp.resource.IPMPConnectionInterface;
-import de.unistuttgart.ipvs.pmp.resource.RGMode;
-import de.unistuttgart.ipvs.pmp.resource.privacysetting.PrivacySettingValueException;
+import de.unistuttgart.ipvs.pmp.shared.Log;
+import de.unistuttgart.ipvs.pmp.shared.resource.IPMPConnectionInterface;
+import de.unistuttgart.ipvs.pmp.shared.resource.RGMode;
+import de.unistuttgart.ipvs.pmp.shared.resource.privacysetting.PrivacySettingValueException;
 import de.unistuttgart.ipvs.pmp.util.FileLog;
 
 /**

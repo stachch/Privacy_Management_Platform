@@ -7,12 +7,12 @@
     android:layout_marginRight="3dp"
     android:orientation="vertical" >
 
-    <de.unistuttgart.ipvs.pmp.gui.view.BasicTitleView
+    <de.unistuttgart.ipvs.pmp.shared.gui.view.BasicTitleView
         pmp:name="@string/pmp_api_registration_title"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         pmp:icon="@drawable/pmp_api_icon" >
-    </de.unistuttgart.ipvs.pmp.gui.view.BasicTitleView>
+    </de.unistuttgart.ipvs.pmp.shared.gui.view.BasicTitleView>
 
     <LinearLayout
         android:id="@+id/LinearLayout_States"

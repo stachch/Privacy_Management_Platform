@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resourceGroupInformationSet>
+	<resourceGroupInformation
+		identifier="de.unistuttgart.ipvs.pmp.resourcegroups.database"
+		icon="res/drawable/icon.png"
+		className="Database">
+		<name lang="en">Database</name>
+		<name lang="de">Datenbank</name>
+		<description lang="en">Database Resource to provide basic functions like read and write into a database.</description>
+		<description lang="de">Datenbank Ressource die grundlegende Funktionen bietet wie z.B. lesen und schreiben in eine Datenbank.</description>
+	</resourceGroupInformation>
+	<privacySettings>
+		<privacySetting
+			identifier="read"
+			validValueDescription="'true', 'false'">
+			<name lang="en">Read out of database</name>
+			<name lang="de">Aus Datenbank lesen</name>
+			<description lang="en">Allows to read out of a database.</description>
+			<description lang="de">Erlaubt aus einer Datenbank zu lesen.</description>
+			<changeDescription lang="en">By ticking off the checkbox all assigned Apps are allowed to read from the databases specified with the 'Allowed Databases' Privacy Setting.</changeDescription>
+			<changeDescription lang="de">Durch aktivieren der Checkbox dürfen alle zugewiesenen Apps von den im Privacy Setting 'Erlaubte Datenbanken' gesetzen Datenbanken lesen.</changeDescription>
+		</privacySetting>
+		<privacySetting
+			identifier="modify"
+			validValueDescription="'true', 'false'">
+			<name lang="en">Modify database</name>
+			<name lang="de">Datenbank modifizieren</name>
+			<description lang="en">Allows to modify a database.</description>
+			<description lang="de">Erlaubt eine Datenbank zu modifizieren.</description>
+			<changeDescription lang="en">By ticking off the checkbox all assigned Apps are allowed to write on the databases specified with the 'Allowed Databases' Privacy Setting.</changeDescription>
+			<changeDescription lang="de">Durch aktivieren der Checkbox dürfen alle zugewiesenen Apps in die im Privacy Setting 'Erlaubte Datenbanken' gesetzen Datenbanken schreiben.</changeDescription>
+		</privacySetting>
+		<privacySetting
+			identifier="create"
+			validValueDescription="'true', 'false'">
+			<name lang="en">Create tables</name>
+			<name lang="de">Tabellen erstellen</name>
+			<description lang="en">Allows to create new tables.</description>
+			<description lang="de">Erlaubt neue Tabellen zu erstellen</description>
+			<changeDescription lang="en">By ticking off the checkbox all assigned Apps are allowed to create tables in the databases specified with the 'Allowed Databases' Privacy Setting.</changeDescription>
+			<changeDescription lang="de">Durch aktivieren der Checkbox dürfen alle zugewiesenen Apps neue Tabellen der im Privacy Setting 'Erlaubte Datenbanken' gesetzen Datenbanken erstellen.</changeDescription>
+		</privacySetting>
+		<privacySetting
+			identifier="allowedDatabases"
+			validValueDescription="allowedDatabaseNames (String), separated by semicolon, `private` as database name for a only to the app visible database.">
+			<name lang="en">Allowed databases</name>
+			<name lang="de">Erlaubte Datenbanken</name>
+			<description lang="en">Names of the databases for which access is allowed.</description>
+			<description lang="de">Namen der Datenbanken für die ein Zugriff erlaubt ist.</description>
+			<changeDescription lang="en">All here added database names can be accessed by the assigned Apps, with the permissions set by the other Privacy Settings. If you add a database named 'private' this database is only visible to the App itself.</changeDescription>
+			<changeDescription lang="de">Auf alle hier hinzugefügten Datenbanknamen können die Apps, mit ihren in den anderen Privacy Settings festgelegten Rechten, zufreifen. Wenn der Datenbankname 'private' heißt ist diese Datenbank nur für die App selbst sichtbar.</changeDescription>
+		</privacySetting>
+	</privacySettings>
+</resourceGroupInformationSet>

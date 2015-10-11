@@ -7,7 +7,7 @@
     android:layout_marginRight="3dp"
     android:orientation="vertical" >
 
-    <de.unistuttgart.ipvs.pmp.gui.view.BasicTitleView
+    <de.unistuttgart.ipvs.pmp.shared.gui.view.BasicTitleView
         android:id="@+id/Title"
         pmp:name="@string/service_feature_title"
         android:layout_width="fill_parent"
@@ -36,7 +36,7 @@
                 android:orientation="vertical"
                 android:visibility="gone" >
 
-                <de.unistuttgart.ipvs.pmp.gui.view.BasicTitleViewCompact
+                <de.unistuttgart.ipvs.pmp.shared.gui.view.BasicTitleViewCompact
                     pmp:name="@string/required_privacy_settings"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
@@ -57,7 +57,7 @@
                 android:orientation="vertical"
                 android:visibility="gone" >
 
-                <de.unistuttgart.ipvs.pmp.gui.view.BasicTitleViewCompact
+                <de.unistuttgart.ipvs.pmp.shared.gui.view.BasicTitleViewCompact
                     pmp:name="@string/required_resources"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"

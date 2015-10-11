@@ -37,7 +37,7 @@ import de.unistuttgart.ipvs.pmp.model.element.contextannotation.IContextAnnotati
 import de.unistuttgart.ipvs.pmp.model.element.preset.IPreset;
 import de.unistuttgart.ipvs.pmp.model.element.preset.Preset;
 import de.unistuttgart.ipvs.pmp.model.element.resourcegroup.IResourceGroup;
-import de.unistuttgart.ipvs.pmp.service.pmp.RegistrationResult;
+import de.unistuttgart.ipvs.pmp.shared.service.pmp.RegistrationResult;
 
 /**
  * Mockup model guaranteed to not persist anything or communicate with anyone while trying to maintain the main

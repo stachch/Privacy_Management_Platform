@@ -29,7 +29,6 @@ import java.io.ObjectOutputStream;
 import java.net.Socket;
 import java.util.Date;
 
-import de.unistuttgart.ipvs.pmp.Log;
 import de.unistuttgart.ipvs.pmp.PMPApplication;
 import de.unistuttgart.ipvs.pmp.jpmpps.JPMPPSConstants;
 import de.unistuttgart.ipvs.pmp.jpmpps.io.request.AbstractRequest;
@@ -48,6 +47,7 @@ import de.unistuttgart.ipvs.pmp.jpmpps.model.LocalizedResourceGroup;
 import de.unistuttgart.ipvs.pmp.model.assertion.Assert;
 import de.unistuttgart.ipvs.pmp.model.assertion.ModelIntegrityError;
 import de.unistuttgart.ipvs.pmp.model.assertion.ModelMisuseError;
+import de.unistuttgart.ipvs.pmp.shared.Log;
 import de.unistuttgart.ipvs.pmp.xmlutil.presetset.IPresetSet;
 import de.unistuttgart.ipvs.pmp.xmlutil.presetset.PresetSet;
 

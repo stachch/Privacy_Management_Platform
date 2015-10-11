@@ -7,7 +7,7 @@
     android:layout_marginRight="3dp"
     android:orientation="vertical" >
 
-    <de.unistuttgart.ipvs.pmp.gui.view.BasicTitleView
+    <de.unistuttgart.ipvs.pmp.shared.gui.view.BasicTitleView
         android:id="@+id/activity_title"
         pmp:icon="@drawable/icon_presets"
         android:layout_width="fill_parent"

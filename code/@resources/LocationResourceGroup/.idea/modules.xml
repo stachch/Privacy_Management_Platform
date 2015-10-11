@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/LocationResourceGroup.iml" filepath="$PROJECT_DIR$/LocationResourceGroup.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LocationResourceGroup/LocationResourceGroup-LocationResourceGroup.iml" filepath="$PROJECT_DIR$/LocationResourceGroup/LocationResourceGroup-LocationResourceGroup.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PMPAPI/PMPAPI.iml" filepath="$PROJECT_DIR$/PMPAPI/PMPAPI.iml" />
+    </modules>
+  </component>
+</project>

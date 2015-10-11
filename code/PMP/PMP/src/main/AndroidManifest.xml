@@ -103,6 +103,7 @@
             android:name=".gui.main.ActivityMain"
             android:icon="@drawable/icon"
             android:label="PMP"
+            android:screenOrientation="portrait"
             android:theme="@android:style/Theme.NoTitleBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -112,38 +113,47 @@
         </activity>
         <activity
             android:name=".gui.main.ActivityAbout"
+            android:screenOrientation="portrait"
             android:theme="@android:style/Theme.NoTitleBar" />
         <activity
             android:name=".gui.setting.ActivitySettings"
             android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
             android:theme="@android:style/Theme.NoTitleBar" />
         <activity
             android:name=".gui.app.ActivityApps"
             android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
             android:theme="@android:style/Theme.NoTitleBar" />
         <activity
             android:name=".gui.app.ActivityApp"
             android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
             android:theme="@android:style/Theme.NoTitleBar" />
         <activity
             android:name=".gui.preset.ActivityPresets"
             android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
             android:theme="@android:style/Theme.NoTitleBar" />
         <activity
             android:name=".gui.preset.ActivityPreset"
             android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
             android:theme="@android:style/Theme.NoTitleBar" />
         <activity
             android:name=".gui.resourcegroup.ActivityResourceGroups"
             android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
             android:theme="@android:style/Theme.NoTitleBar" />
         <activity
             android:name=".gui.preset.conflict.ActivityConflictList"
             android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
             android:theme="@android:style/Theme.NoTitleBar" />
         <activity
             android:name=".gui.preset.conflict.ActivityConflicts"
             android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
             android:theme="@android:style/Theme.NoTitleBar" />
 
         <!-- Tabs -->
@@ -160,6 +170,7 @@
         <activity
             android:name=".model.activity.PMPDeveloperConsoleActivity"
             android:icon="@drawable/icon_dev_console"
+            android:screenOrientation="portrait"
             android:label="PMP Dev Console" >
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
@@ -179,6 +190,7 @@
         <activity
             android:name=".gui.util.PresetSetImportActivity"
             android:icon="@drawable/icon"
+            android:screenOrientation="portrait"
             android:label="@string/import_with_pmp" >
             <intent-filter>
                 <data
@@ -226,8 +238,7 @@
 
         <!--
              The PMPService can be loaded by using the intent action name declared 
-			3 lines below.
-
+			3 lines below.
         -->
         <service
             android:name=".service.PMPService"

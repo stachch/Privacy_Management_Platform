@@ -11,7 +11,7 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content" >
 
-        <de.unistuttgart.ipvs.pmp.gui.view.BasicTitleView
+        <de.unistuttgart.ipvs.pmp.shared.gui.view.BasicTitleView
             android:layout_width="0dip"
             android:layout_height="wrap_content"
             android:layout_weight="1"

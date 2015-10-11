@@ -30,7 +30,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 import de.unistuttgart.ipvs.pmp.R;
-import de.unistuttgart.ipvs.pmp.gui.view.BasicTitleView;
+import de.unistuttgart.ipvs.pmp.shared.gui.view.BasicTitleView;
 import de.unistuttgart.ipvs.pmp.xmlutil.presetset.IPresetSet;
 
 /**

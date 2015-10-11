@@ -31,9 +31,9 @@ import de.unistuttgart.ipvs.pmp.R;
 import de.unistuttgart.ipvs.pmp.gui.privacysetting.ViewPrivacySettingBasicInformation;
 import de.unistuttgart.ipvs.pmp.gui.util.dialog.DialogConfirmDelete;
 import de.unistuttgart.ipvs.pmp.gui.util.model.ModelProxy;
-import de.unistuttgart.ipvs.pmp.gui.view.BasicTitleView;
 import de.unistuttgart.ipvs.pmp.model.element.privacysetting.IPrivacySetting;
 import de.unistuttgart.ipvs.pmp.model.element.resourcegroup.IResourceGroup;
+import de.unistuttgart.ipvs.pmp.shared.gui.view.BasicTitleView;
 import de.unistuttgart.ipvs.pmp.util.Restarter;
 import de.unistuttgart.ipvs.pmp.xmlutil.revision.RevisionReader;
 

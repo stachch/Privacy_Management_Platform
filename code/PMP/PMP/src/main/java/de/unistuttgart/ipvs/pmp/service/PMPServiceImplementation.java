@@ -31,10 +31,10 @@ import de.unistuttgart.ipvs.pmp.model.PersistenceConstants;
 import de.unistuttgart.ipvs.pmp.model.PresetController;
 import de.unistuttgart.ipvs.pmp.model.element.app.IApp;
 import de.unistuttgart.ipvs.pmp.model.element.resourcegroup.IResourceGroup;
-import de.unistuttgart.ipvs.pmp.resource.RGMode;
-import de.unistuttgart.ipvs.pmp.resource.privacysetting.PrivacySettingValueException;
-import de.unistuttgart.ipvs.pmp.service.pmp.IPMPService;
-import de.unistuttgart.ipvs.pmp.service.pmp.RegistrationResult;
+import de.unistuttgart.ipvs.pmp.shared.resource.RGMode;
+import de.unistuttgart.ipvs.pmp.shared.resource.privacysetting.PrivacySettingValueException;
+import de.unistuttgart.ipvs.pmp.shared.service.pmp.IPMPService;
+import de.unistuttgart.ipvs.pmp.shared.service.pmp.RegistrationResult;
 import de.unistuttgart.ipvs.pmp.util.FileLog;
 
 /**
@@ -54,7 +54,7 @@ public class PMPServiceImplementation extends IPMPService.Stub {
             FileLog.get().logWithForward(this, null, FileLog.GRANULARITY_SETTING_REQUESTS, Level.FINE,
                     "%s requested service features verification, results will be directly published to the app.",
                     app.getName());
-            
+                    
             app.verifyServiceFeatures();
             return true;
         }

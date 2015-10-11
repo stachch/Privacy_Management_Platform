@@ -23,7 +23,6 @@ import android.content.ContentValues;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteQueryBuilder;
-import de.unistuttgart.ipvs.pmp.Log;
 import de.unistuttgart.ipvs.pmp.model.PersistenceConstants;
 import de.unistuttgart.ipvs.pmp.model.assertion.Assert;
 import de.unistuttgart.ipvs.pmp.model.assertion.ModelIntegrityError;
@@ -33,8 +32,9 @@ import de.unistuttgart.ipvs.pmp.model.element.contextannotation.IContextAnnotati
 import de.unistuttgart.ipvs.pmp.model.element.resourcegroup.ResourceGroup;
 import de.unistuttgart.ipvs.pmp.model.exception.InvalidPluginException;
 import de.unistuttgart.ipvs.pmp.model.plugin.PluginProvider;
-import de.unistuttgart.ipvs.pmp.resource.RGMode;
-import de.unistuttgart.ipvs.pmp.resource.privacysetting.library.EnumPrivacySetting;
+import de.unistuttgart.ipvs.pmp.shared.Log;
+import de.unistuttgart.ipvs.pmp.shared.resource.RGMode;
+import de.unistuttgart.ipvs.pmp.shared.resource.privacysetting.library.EnumPrivacySetting;
 
 /**
  * The persistence provider for {@link PrivacySetting}s.

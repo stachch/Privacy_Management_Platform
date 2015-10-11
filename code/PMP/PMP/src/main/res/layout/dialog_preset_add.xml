@@ -11,7 +11,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical" >
 
-        <de.unistuttgart.ipvs.pmp.gui.view.BasicTitleView
+        <de.unistuttgart.ipvs.pmp.shared.gui.view.BasicTitleView
             android:id="@+id/Title_add"
             pmp:name="@string/add_preset"
             android:layout_width="fill_parent"
@@ -25,7 +25,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical" >
 
-        <de.unistuttgart.ipvs.pmp.gui.view.BasicTitleView
+        <de.unistuttgart.ipvs.pmp.shared.gui.view.BasicTitleView
             android:id="@+id/Title_edit"
             pmp:name="@string/edit_preset"
             android:layout_width="fill_parent"

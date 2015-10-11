@@ -21,7 +21,7 @@ package de.unistuttgart.ipvs.pmp.model.simple;
 
 import de.unistuttgart.ipvs.pmp.model.IModel;
 import de.unistuttgart.ipvs.pmp.model.element.servicefeature.IServiceFeature;
-import de.unistuttgart.ipvs.pmp.resource.privacysetting.PrivacySettingValueException;
+import de.unistuttgart.ipvs.pmp.shared.resource.privacysetting.PrivacySettingValueException;
 
 /**
  * The {@link ISimpleModel} is a contract for the model's "Simple Mode Addon" which helps simplify the UI's access to

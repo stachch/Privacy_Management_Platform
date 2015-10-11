@@ -33,11 +33,11 @@ import android.content.pm.PackageManager.NameNotFoundException;
 import android.os.Bundle;
 import android.os.Handler;
 import android.widget.Toast;
-import de.unistuttgart.ipvs.pmp.Log;
 import de.unistuttgart.ipvs.pmp.gui.util.model.ModelProxy;
 import de.unistuttgart.ipvs.pmp.model.exception.InvalidPluginException;
 import de.unistuttgart.ipvs.pmp.model.exception.InvalidXMLException;
 import de.unistuttgart.ipvs.pmp.model.plugin.PluginProvider;
+import de.unistuttgart.ipvs.pmp.shared.Log;
 import de.unistuttgart.ipvs.pmp.util.Restarter;
 
 public class DebugInstallRGActivity extends Activity {

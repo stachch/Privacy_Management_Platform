@@ -7,13 +7,13 @@
     android:layout_marginRight="3dp"
     android:orientation="vertical" >
 
-    <de.unistuttgart.ipvs.pmp.gui.view.BasicTitleView
+    <de.unistuttgart.ipvs.pmp.shared.gui.view.BasicTitleView
         pmp:name="@string/resources"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         pmp:backButton="true"
         pmp:icon="@drawable/icon_rgs" >
-    </de.unistuttgart.ipvs.pmp.gui.view.BasicTitleView>
+    </de.unistuttgart.ipvs.pmp.shared.gui.view.BasicTitleView>
 
     <TabHost
         android:id="@android:id/tabhost"

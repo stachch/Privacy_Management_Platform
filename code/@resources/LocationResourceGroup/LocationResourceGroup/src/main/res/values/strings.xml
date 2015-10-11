@@ -1,0 +1,6 @@
+<resources>
+    <string name="res_name">[PMP@Res] Location Resource Group</string>
+    <string name="pmp_rg_location_notification_title">GPS disabled</string>
+    <string name="pmp_rg_location_notification_description">Please enable it to use the Location Resource.</string>
+    <string name="pmp_rg_location_notification_infotext">GPS is disabled, please enable it.</string>
+</resources>

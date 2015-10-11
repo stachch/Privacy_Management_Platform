@@ -23,7 +23,7 @@ import java.io.InputStream;
 
 import android.graphics.drawable.Drawable;
 import de.unistuttgart.ipvs.pmp.model.exception.InvalidPluginException;
-import de.unistuttgart.ipvs.pmp.resource.ResourceGroup;
+import de.unistuttgart.ipvs.pmp.shared.resource.ResourceGroup;
 import de.unistuttgart.ipvs.pmp.xmlutil.rgis.IRGIS;
 
 /**

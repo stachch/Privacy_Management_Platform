@@ -36,8 +36,8 @@ import de.unistuttgart.ipvs.pmp.gui.util.ActivityKillReceiver;
 import de.unistuttgart.ipvs.pmp.gui.util.GUIConstants;
 import de.unistuttgart.ipvs.pmp.gui.util.GUITools;
 import de.unistuttgart.ipvs.pmp.gui.util.model.ModelProxy;
-import de.unistuttgart.ipvs.pmp.gui.view.BasicTitleView;
 import de.unistuttgart.ipvs.pmp.model.element.app.IApp;
+import de.unistuttgart.ipvs.pmp.shared.gui.view.BasicTitleView;
 
 /**
  * The {@link ActivityApp} displays a at PMP registered App.

@@ -37,9 +37,9 @@ In PMP-API:
 * libs\pmp-xml-util-stable-latest.jar => PMPAPI\libs\pmp-xml-util-stable-latest.jar
 * res\ => PMPAPI\src\main\res\
 * src\ => PMPAPI\src\main\java\
-* src\de\unistuttgart\ipvs\pmp\service\app\IAppService.aidl => PMPAPI\src\main\aidl\de\unistuttgart\ipvs\pmp\service\app\IAppService.aidl
-* src\de\unistuttgart\ipvs\pmp\service\pmp\IPMPService.aidl => PMPAPI\src\main\aidl\de\unistuttgart\ipvs\pmp\service\pmp\IPMPService.aidl
-* src\de\unistuttgart\ipvs\pmp\service\pmp\RegistrationResult.aidl => PMPAPI\src\main\aidl\de\unistuttgart\ipvs\pmp\service\pmp\RegistrationResult.aidl
+* src\de\unistuttgart\ipvs\pmp\shared\service\app\IAppService.aidl => PMPAPI\src\main\aidl\de\unistuttgart\ipvs\pmp\shared\service\app\IAppService.aidl
+* src\de\unistuttgart\ipvs\pmp\shared\service\pmp\IPMPService.aidl => PMPAPI\src\main\aidl\de\unistuttgart\ipvs\pmp\shared\service\pmp\IPMPService.aidl
+* src\de\unistuttgart\ipvs\pmp\shared\service\pmp\RegistrationResult.aidl => PMPAPI\src\main\aidl\de\unistuttgart\ipvs\pmp\shared\service\pmp\RegistrationResult.aidl
 In PMP:
 * AndroidManifest.xml => PMP\src\main\AndroidManifest.xml
 * assets\ => PMP\src\main\assets\

@@ -1,5 +1,14 @@
-# Privacy_Management_Platform
+# Privacy Management Platform
 The Privacy Management Platform (PMP) is an extensible, fine-grained, and context-sensitive access control mechanism for Android. With the PMP, Permissions can be granted to or withdrawn from an app at run-time.
+
+## Directory Structure
+* code (provided as [Android Studio](http://developer.android.com/tools/studio/index.html) projects)
+  * @apps (sample apps which are compatible with the PMP)
+  * @resources (sample PMP Resources)
+  * PMP (main project)
+  * PMP-API (API requied for the development of the PMP, PMP Resources, and PMP Apps)
+* documents (documents about the PMP including a publication summery)
+  * manual (PMP manual for both developers and users)
 
 ## Publications
 Further information about the PMP can be found in:

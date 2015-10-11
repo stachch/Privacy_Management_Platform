@@ -5,13 +5,13 @@
     android:layout_height="wrap_content"
     android:orientation="vertical" >
 
-    <de.unistuttgart.ipvs.pmp.gui.view.BasicTitleView
+    <de.unistuttgart.ipvs.pmp.shared.gui.view.BasicTitleView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         pmp:icon="@drawable/icon_settings"
         pmp:name="@string/settings"
         pmp:backButton="true" >
-    </de.unistuttgart.ipvs.pmp.gui.view.BasicTitleView>
+    </de.unistuttgart.ipvs.pmp.shared.gui.view.BasicTitleView>
     
     <ListView
         android:id="@+id/ListView_Settings"

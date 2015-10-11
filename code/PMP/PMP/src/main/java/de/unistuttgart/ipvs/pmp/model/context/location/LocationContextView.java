@@ -44,7 +44,7 @@ import de.unistuttgart.ipvs.pmp.R;
 import de.unistuttgart.ipvs.pmp.gui.util.GUITools;
 import de.unistuttgart.ipvs.pmp.model.context.IContextView;
 import de.unistuttgart.ipvs.pmp.model.exception.InvalidConditionException;
-import de.unistuttgart.ipvs.pmp.util.location.PMPGeoPoint;
+import de.unistuttgart.ipvs.pmp.shared.util.location.PMPGeoPoint;
 
 /**
  * View component for the {@link LocationContext}.

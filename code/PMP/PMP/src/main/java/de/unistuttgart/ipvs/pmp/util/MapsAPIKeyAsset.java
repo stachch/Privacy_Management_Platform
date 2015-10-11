@@ -24,7 +24,7 @@ import java.io.InputStream;
 import java.util.Properties;
 
 import android.content.Context;
-import de.unistuttgart.ipvs.pmp.Log;
+import de.unistuttgart.ipvs.pmp.shared.Log;
 
 /**
  * Utility to get a Maps API key using an Asset.

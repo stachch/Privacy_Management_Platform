@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Kalender</string>
+    <string name="new_todo">Neuer Termin</string>
+    <string name="desc">Beschreibung</string>
+    <string name="conf">Bestätigen</string>
+    <string name="add_todo_dialog">Neuer Termin hinzufügen</string>
+    <string name="change_todo_dialog">Termin ändern</string>
+    <string name="delete">Löschen</string>
+    <string name="send">Per E-Mail senden</string>
+    <string name="subject">Neuer Termin</string>
+    <string name="menu">Menü</string>
+    <string name="wait">Bitte warten…</string>
+    <string name="registration">Registrierung wird durchgeführt.</string>
+    <string name="registration_succeed">Erfolgreich bei PMP registriert.</string>
+    <string name="registration_failed">Registrierung fehlgeschlagen.</string>
+    <string name="err_load">Fehler beim Lesen der Termins aus der Datenbank</string>
+    <string name="err_store">Fehler beim Speichern in der Datenbank</string>
+    <string name="err_del">Fehler beim Löschen eines Termins in der Datenbank</string>
+    <string name="err_change">Fehler beim Ändern eines Termins in der Datenbank</string>
+    <string name="date">Datum: </string>
+    <string name="import_appointments">Termine importieren</string>
+    <string name="export_appointments">Termine exportieren</string>
+    <string name="file_name">Dateiname:</string>
+    <string name="delete_all_appointments">Alle Termine löschen</string>
+    <string name="delete_all_appointments_question">Möchten Sie wirklich alle Termineinträge löschen?</string>
+    <string name="change_sf">Service Features ändern</string>
+    <string name="insufficent_sf">Service Features nicht ausreichend</string>
+    <string name="insufficent_sf_message">Die aktuellen Service Features sind nicht ausreichend um
+		diese Aktion auszuführen. Um die Aktion auszuführen, aktivieren Sie
+		bitte das dazugehörige Service Feature.</string>
+    <string name="export_override_question">Vorhandene Datei überschreiben?</string>
+    <string name="export_override_attention">Eine Datei mit dem Dateinamen ist bereits
+		vorhanden. Möchten Sie die Datei überschreiben?</string>
+    <string name="export_override_conf">Überschreiben</string>
+    <string name="export_override_cancel">Abbrechen</string>
+    <string name="export_toast_cancel">Exportieren wurden abgebrochen.</string>
+    <string name="export_toast_succeed">Exportieren war erfolgreich.</string>
+    <string name="export_toast_failed">Exportieren fehlgeschlagen.</string>
+    <string name="export_error_filename">Bitte Dateinamen eingeben.</string>
+    <string name="delete_file_toast">Datei gelöscht.</string>
+    <string name="import_data_invalid_toast">Importieren fehlgeschlagen.</string>
+    <string name="import_succeed_toast">Importieren der Termine war erfolgreich.</string>
+    <string name="sd_card_missing">Wenn Sie die Import-/Export-Funktionalität nutzen
+		möchten, legen Sie bitte eine SD-Karte ein!</string>
+    <string name="err_create">Tut mir Leid, Kalender konnte keine Tabelle in der
+		Datenbank erstellen, deswegen wird die App nicht korrekt
+		funktionieren.</string>
+    <string name="no_appointments_available">Keine Termineinträge vorhanden. Termineinträge
+		können über das Menü hinzugefügt oder importiert werden.</string>
+    <string name="no_files_available">Es sind keine Dateien verfügbar.</string>
+    <string name="empty_list_title">Keine Termineinträge vorhanden</string>
+    <string name="empty_list_message">Termineinträge können nicht exportiert werden. Es sind keine Termineinträge vorhanden.</string>
+    <string name="invalid_file_name_title">Ungültiger Dateiname</string>
+    <string name="invalid_file_name_message">Der eingegebene Dateiname ist ungültig.</string>
+    <string name="error">Fehler</string>
+    <string name="not_found">PMP konnte nicht gefunden werde.\n Der Kalendar wird geschlossen.</string>
+    <string name="appointment_not_added">Nichts hinzugefügt. Bitte Name oder Beschreibung hinzufügen.</string>
+    <string name="appointment_not_changed">Nichts geändert. Bitte Name oder Beschreibung hinzufügen.</string>
+    <string name="severity">Priorität:</string>
+    <string name="severity_high">hoch</string>
+    <string name="severity_middle">mittel</string>
+    <string name="severity_low">niedrig</string>
+    <string name="err_connect_fs">Konnte keine Verbindung zur Dateisystem-Ressource herstellen</string>
+    <string name="no_reading">Das Lesen aus der Datenbank ist nicht erlaubt. Service-Feature bitte setzen um Termine anzuzeigen.</string>
+
+</resources>

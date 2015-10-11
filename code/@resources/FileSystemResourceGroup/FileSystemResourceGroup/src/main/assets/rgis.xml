@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resourceGroupInformationSet>
+   <resourceGroupInformation
+       identifier="de.unistuttgart.ipvs.pmp.resourcegroups.filesystem"
+       icon="res/drawable/icon.png"
+       className="Filesystem">
+      <name lang="en">Filesystem</name>
+      <name lang="de">Dateisystem</name>
+      <description lang="en">File system Resource to read and write files.</description>
+      <description lang="de">Dateisystem Ressource zum Dateien lesen und schreiben.</description>
+   </resourceGroupInformation>
+   <privacySettings>
+      <privacySetting identifier="gen_r" validValueDescription="'true', 'false'">
+         <name lang="en">Generic read</name>
+         <name lang="de">Generisches lesen</name>
+         <description lang="en">Allows the application to read every file stored on the device.</description>
+         <description lang="de">Erlaubt es alle Dateien dem Gerät zu lesen.</description>
+         <changeDescription lang="en">Allows the application to read every file stored on the device.</changeDescription>
+         <changeDescription lang="de">Erlaubt es alle Dateien dem Gerät zu lesen.</changeDescription>
+      </privacySetting>
+      <privacySetting identifier="gen_w" validValueDescription="'true', 'false'">
+         <name lang="en">Generic write</name>
+         <name lang="de">Generisches schreiben</name>
+         <description lang="en">Allows the application to write files everywhere on the device.</description>
+         <description lang="de">Erlaubt es Dateien auf dem ganzen Gerät zu schreiben.</description>
+         <changeDescription lang="en">Allows the application to write files everywhere on the device.</changeDescription>
+         <changeDescription lang="de">Erlaubt es Dateien auf dem ganzen Gerät zu schreiben.</changeDescription>
+      </privacySetting>
+      <privacySetting identifier="gen_l" validValueDescription="'true', 'false'">
+         <name lang="en">Generic list files</name>
+         <name lang="de">Generisches Dateien auflisten</name>
+         <description lang="en">Allows the application to receive a list of all files stored in every directory of on the device.</description>
+         <description lang="de">Erlaubt es alle Dateien auf dem Gerät aufzulisten.</description>
+         <changeDescription lang="en">Allows the application to receive a list of all files stored in every directory of on the device.</changeDescription>
+         <changeDescription lang="de">Erlaubt es alle Dateien auf dem Gerät aufzulisten.</changeDescription>
+      </privacySetting>
+      <privacySetting identifier="gen_d" validValueDescription="'true', 'false'">
+         <name lang="en">Generic delete files</name>
+         <name lang="de">Generisches löschen</name>
+         <description lang="en">Allows the application to delete every file stored on the device.</description>
+         <description lang="de">Erlaubt es alle Dateien auf dem Gerät zu löschen.</description>
+         <changeDescription lang="en">Allows the application to delete every file stored on the device.</changeDescription>
+         <changeDescription lang="de">Erlaubt es alle Dateien auf dem Gerät zu löschen.</changeDescription>
+      </privacySetting>
+      <privacySetting identifier="gen_mkdirs" validValueDescription="'true', 'false'">
+         <name lang="en">Generic make directory</name>
+         <name lang="de">Generisches Ordner erstellen</name>
+         <description lang="en">Allows the application to create directories everywhere on the device.</description>
+         <description lang="de">Erlaubt es Ordner auf dem ganzen Gerät zu erstellen.</description>
+         <changeDescription lang="en">Allows the application to create directories everywhere on the device.</changeDescription>
+         <changeDescription lang="de">Erlaubt es Ordner auf dem ganzen Gerät zu erstellen.</changeDescription>
+      </privacySetting>
+      <privacySetting identifier="ext_base_r" validValueDescription="'true', 'false'">
+         <name lang="en">Base directory read</name>
+         <name lang="de">Hauptverzeichnis lesen</name>
+         <description lang="en">Allows to read all files stored on the SD-Card including files and directories controlled by the other privacy settings (e.g. data in the music directory).</description>
+         <description lang="de">Erlaubt es alle Dateien auf der SD-Karte zu lesen (inklusive Dateien und Ordner die von anderen Privacy Settings kontrolliert werden).</description>
+         <changeDescription lang="en">Allows to read all files stored on the SD-Card including files and directories controlled by the other privacy settings (e.g. data in the music directory).</changeDescription>
+         <changeDescription lang="de">Erlaubt es alle Dateien auf der SD-Karte zu lesen (inklusive Dateien und Ordner die von anderen Privacy Settings kontrolliert werden).</changeDescription>
+      </privacySetting>
+      <privacySetting identifier="ext_base_w" validValueDescription="'true', 'false'">
+         <name lang="en">Base directory write</name>
+         <name lang="de">Hauptverzeichnis schreiben</name>
+         <description lang="en">Allows to write all files stored on the SD-Card including files and directories controlled by the other privacy settings (e.g. data in the music directory).</description>
+         <description lang="de">Erlaubt es alle Dateien auf der SD-Karte zu schreiben (inklusive Dateien und Ordner die von anderen Privacy Settings kontrolliert werden).</description>
+         <changeDescription lang="en">Allows to write all files stored on the SD-Card including files and directories controlled by the other privacy settings (e.g. data in the music directory).</changeDescription>
+         <changeDescription lang="de">Erlaubt es alle Dateien auf der SD-Karte zu schreiben (inklusive Dateien und Ordner die von anderen Privacy Settings kontrolliert werden).</changeDescription>
+      </privacySetting>
+      <privacySetting identifier="ext_base_l" validValueDescription="'true', 'false'">
+         <name lang="en">Base directory list files</name>
+         <name lang="de">Hauptverzeichnis Dateien auflisten</name>
+         <description lang="en">Allows to list all files stored on the SD-Card including files and directories controlled by the other privacy settings (e.g. data in the music directory).</description>
+         <description lang="de">Erlaubt es alle Dateien auf der SD-Karte aufzulisten (inklusive Dateien und Ordner die von anderen Privacy Settings kontrolliert werden).</description>
+         <changeDescription lang="en">Allows to list all files stored on the SD-Card including files and directories controlled by the other privacy settings (e.g. data in the music directory).</changeDescription>
+         <changeDescription lang="de">Erlaubt es alle Dateien auf der SD-Karte aufzulisten (inklusive Dateien und Ordner die von anderen Privacy Settings kontrolliert werden).</changeDescription>
+      </privacySetting>
+      <privacySetting identifier="ext_base_d" validValueDescription="'true', 'false'">
+         <name lang="en">Base directory delete files</name>
+         <name lang="de">Hauptverzeichnis löschen</name>
+         <description lang="en">Allows to delete all files stored on the SD-Card including files and directories controlled by the other privacy settings (e.g. data in the music directory).</description>
+         <description lang="de">Erlaubt es alle Dateien auf der SD-Karte zu löschen (inklusive Dateien und Ordner die von anderen Privacy Settings kontrolliert werden).</description>
+         <changeDescription lang="en">Allows to delete all files stored on the SD-Card including files and directories controlled by the other privacy settings (e.g. data in the music directory).</changeDescription>
+         <changeDescription lang="de">Erlaubt es alle Dateien auf der SD-Karte zu löschen (inklusive Dateien und Ordner die von anderen Privacy Settings kontrolliert werden).</changeDescription>
+      </privacySetting>
+      <privacySetting identifier="ext_base_mkdirs" validValueDescription="'true', 'false'">
+         <name lang="en">Base directory make directory</name>
+         <name lang="de">Hauptverzeichnis Ordner erstellen</name>
+         <description lang="en">Allows create directories on the SD-Card.</description>
+         <description lang="de">Erlaubt es Ordner auf der SD-Karte zu erstellen.</description>
+         <changeDescription lang="en">Allows create directories on the SD-Card.</changeDescription>
+         <changeDescription lang="de">Erlaubt es Ordner auf der SD-Karte zu erstellen.</changeDescription>
+      </privacySetting>
+      <privacySetting identifier="ext_music_r" validValueDescription="'true', 'false'">
+         <name lang="en">Music directory read</name>
+         <name lang="de">Musikverzeichnis lesen</name>
+         <description lang="en">Allows to read the files stored in the music directory.</description>
+         <description lang="de">Erlaubt es Dateien im Musik-Verzeichnis zu lesen.</description>
+         <changeDescription lang="en">Allows to read the files stored in the music directory.</changeDescription>
+         <changeDescription lang="de">Erlaubt es Dateien im Musik-Verzeichnis zu lesen.</changeDescription>
+      </privacySetting>
+      <privacySetting identifier="ext_music_w" validValueDescription="'true', 'false'">
+         <name lang="en">Music directory write</name>
+         <name lang="de">Musikverzeichnis schreiben</name>
+         <description lang="en">Allows to write the files stored in the music directory.</description>
+         <description lang="de">Erlaubt es Dateien im Musik-Verzeichnis zu schreiben.</description>
+         <changeDescription lang="en">Allows to write the files stored in the music directory.</changeDescription>
+         <changeDescription lang="de">Erlaubt es Dateien im Musik-Verzeichnis zu schreiben.</changeDescription>
+      </privacySetting>
+      <privacySetting identifier="ext_music_l" validValueDescription="'true', 'false'">
+         <name lang="en">Music directory list files</name>
+         <name lang="de">Musikverzeichnis Dateien auflisten</name>
+         <description lang="en">Allows to list the files stored in the music directory.</description>
+         <description lang="de">Erlaubt es die Dateien im Musik-Verzeichnis aufzulisten.</description>
+         <changeDescription lang="en">Allows to list the files stored in the music directory.</changeDescription>
+         <changeDescription lang="de">Erlaubt es die Dateien im Musik-Verzeichnis aufzulisten.</changeDescription>
+      </privacySetting>
+      <privacySetting identifier="ext_music_d" validValueDescription="'true', 'false'">
+         <name lang="en">Music directory delete files</name>
+         <name lang="de">Musikverzeichnis löschen</name>
+         <description lang="en">Allows to delete the files stored in the music directory.</description>
+         <description lang="de">Erlaubt es Dateien im Musik-Verzeichnis zu löschen.</description>
+         <changeDescription lang="en">Allows to delete the files stored in the music directory.</changeDescription>
+         <changeDescription lang="de">Erlaubt es Dateien im Musik-Verzeichnis zu löschen.</changeDescription>
+      </privacySetting>
+      <privacySetting identifier="ext_music_mkdirs" validValueDescription="'true', 'false'">
+         <name lang="en">Music directory make directory</name>
+         <name lang="de">Musikverzeichnis Ordner erstellen</name>
+         <description lang="en">Allows to create directories in the music directory.</description>
+         <description lang="de">Erlaubt es Ordner im Musik-Verzeichnis auf der SD-Karte zu erstellen.</description>
+         <changeDescription lang="en">Allows to create directories in the music directory.</changeDescription>
+         <changeDescription lang="de">Erlaubt es Ordner im Musik-Verzeichnis auf der SD-Karte zu erstellen.</changeDescription>
+      </privacySetting>
+      <privacySetting identifier="ext_podcasts_r" validValueDescription="'true', 'false'">
+         <name lang="en">Podcast directory read</name>
+         <name lang="de">Podcast-Verzeichnis lesen</name>
+         <description lang="en">Allows to read the files stored in the podcast directory.</description>
+         <description lang="de">Erlaubt es Dateien im Podcast-Verzeichnis zu lesen.</description>
+         <changeDescription lang="en">Allows to read the files stored in the podcast directory.</changeDescription>
+         <changeDescription lang="de">Erlaubt es Dateien im Podcast-Verzeichnis zu lesen.</changeDescription>
+      </privacySetting>
+      <privacySetting identifier="ext_podcasts_w" validValueDescription="'true', 'false'">
+         <name lang="en">Podcast directory write</name>
+         <name lang="de">Podcast-Verzeichnis schreiben</name>
+         <description lang="en">Allows to write the files stored in the podcast directory.</description>
+         <description lang="de">Erlaubt es Dateien im Podcast-Verzeichnis zu schreiben.</description>
+         <changeDescription lang="en">Allows to write the files stored in the podcast directory.</changeDescription>
+         <changeDescription lang="de">Erlaubt es Dateien im Podcast-Verzeichnis zu schreiben.</changeDescription>
+      </privacySetting>
+      <privacySetting identifier="ext_podcasts_l" validValueDescription="'true', 'false'">
+         <name lang="en">Podcast directory list files</name>
+         <name lang="de">Podcast-Verzeichnis Dateien auflisten</name>
+         <description lang="en">Allows to list the files stored in the podcast directory.</description>
+         <description lang="de">Erlaubt es die Dateien im Podcast-Verzeichnis aufzulisten.</description>
+         <changeDescription lang="en">Allows to list the files stored in the podcast directory.</changeDescription>
+         <changeDescription lang="de">Erlaubt es die Dateien im Podcast-Verzeichnis aufzulisten.</changeDescription>
+      </privacySetting>
+      <privacySetting identifier="ext_podcasts_d" validValueDescription="'true', 'false'">
+         <name lang="en">Podcast directory delete files</name>
+         <name lang="de">Podcast-Verzeichnis löschen</name>
+         <description lang="en">Allows to delete the files stored in the podcast directory.</description>
+         <description lang="de">Erlaubt es Dateien im Podcast-Verzeichnis zu löschen.</description>
+         <changeDescription lang="en">Allows to delete the files stored in the podcast directory.</changeDescription>
+         <changeDescription lang="de">Erlaubt es Dateien im Podcast-Verzeichnis zu löschen.</changeDescription>
+      </privacySetting>
+      <privacySetting identifier="ext_podcasts_mkdirs" validValueDescription="'true', 'false'">
+         <name lang="en">Podcast directory make directory</name>
+         <name lang="de">Podcast-Verzeichnis Ordner erstellen</name>
+         <description lang="en">Allows to create directories in the podcast directory.</description>
+         <description lang="de">Erlaubt es Ordner im Podcast-Verzeichnis auf der SD-Karte zu erstellen.</description>
+         <changeDescription lang="en">Allows to create directories in the podcast directory.</changeDescription>
+         <changeDescription lang="de">Erlaubt es Ordner im Podcast-Verzeichnis auf der SD-Karte zu erstellen.</changeDescription>
+      </privacySetting>
+      <privacySetting identifier="ext_ringtones_r" validValueDescription="'true', 'false'">
+         <name lang="en">Ringtone directory read</name>
+         <name lang="de">Klingelton-Verzeichnis lesen</name>
+         <description lang="en">Allows to read the files stored in the ringtone directory.</description>
+         <description lang="de">Erlaubt es Dateien im Klingelton-Verzeichnis zu lesen.</description>
+         <changeDescription lang="en">Allows to read the files stored in the ringtone directory.</changeDescription>
+         <changeDescription lang="de">Erlaubt es Dateien im Klingelton-Verzeichnis zu lesen.</changeDescription>
+      </privacySetting>
+      <privacySetting identifier="ext_ringtones_w" validValueDescription="'true', 'false'">
+         <name lang="en">Ringtone directory write</name>
+         <name lang="de">Klingelton-Verzeichnis schreiben</name>
+         <description lang="en">Allows to write the files stored in the ringtone directory.</description>
+         <description lang="de">Erlaubt es Dateien im Klingelton-Verzeichnis zu schreiben.</description>
+         <changeDescription lang="en">Allows to write the files stored in the ringtone directory.</changeDescription>
+         <changeDescription lang="de">Erlaubt es Dateien im Klingelton-Verzeichnis zu schreiben.</changeDescription>
+      </privacySetting>
+      <privacySetting identifier="ext_ringtones_l" validValueDescription="'true', 'false'">
+         <name lang="en">Ringtone directory list files</name>
+         <name lang="de">Klingelton-Verzeichnis Dateien auflisten</name>
+         <description lang="en">Allows to list the files stored in the ringtone directory.</description>
+         <description lang="de">Erlaubt es die Dateien im Klingelton-Verzeichnis aufzulisten.</description>
+         <changeDescription lang="en">Allows to list the files stored in the ringtone directory.</changeDescription>
+         <changeDescription lang="de">Erlaubt es die Dateien im Klingelton-Verzeichnis aufzulisten.</changeDescription>
+      </privacySetting>
+      <privacySetting identifier="ext_ringtones_d" validValueDescription="'true', 'false'">
+         <name lang="en">Ringtone directory delete files</name>
+         <name lang="de">Klingelton-Verzeichnis löschen</name>
+         <description lang="en">Allows to delete the files stored in the ringtone directory.</description>
+         <description lang="de">Erlaubt es Dateien im Klingelton-Verzeichnis zu löschen.</description>
+         <changeDescription lang="en">Allows to delete the files stored in the ringtone directory.</changeDescription>
+         <changeDescription lang="de">Erlaubt es Dateien im Klingelton-Verzeichnis zu löschen.</changeDescription>
+      </privacySetting>
+      <privacySetting identifier="ext_ringtones_mkdirs" validValueDescription="'true', 'false'">
+         <name lang="en">Ringtone make directory</name>
+         <name lang="de">Klingelton-Verzeichnis Ordner erstellen</name>
+         <description lang="en">Allows to create directories in the ringtone directory.</description>
+         <description lang="de">Erlaubt es Ordner im Klingelton-Verzeichnis auf der SD-Karte zu erstellen.</description>
+         <changeDescription lang="en">Allows to create directories in the ringtone directory.</changeDescription>
+         <changeDescription lang="de">Erlaubt es Ordner im Klingelton-Verzeichnis auf der SD-Karte zu erstellen.</changeDescription>
+      </privacySetting>
+      <privacySetting identifier="ext_alarms_r" validValueDescription="'true', 'false'">
+         <name lang="en">Alarm directory read</name>
+         <name lang="de">Alarm-Verzeichnis lesen</name>
+         <description lang="en">Allows to read the files stored in the alarm directory.</description>
+         <description lang="de">Erlaubt es Dateien im Alarm-Verzeichnis zu lesen.</description>
+         <changeDescription lang="en">Allows to read the files stored in the alarm directory.</changeDescription>
+         <changeDescription lang="de">Erlaubt es Dateien im Alarm-Verzeichnis zu lesen.</changeDescription>
+      </privacySetting>
+      <privacySetting identifier="ext_alarms_w" validValueDescription="'true', 'false'">
+         <name lang="en">Alarm directory write</name>
+         <name lang="de">Alarm-Verzeichnis schreiben</name>
+         <description lang="en">Allows to write the files stored in the alarm directory.</description>
+         <description lang="de">Erlaubt es Dateien im Alarm-Verzeichnis zu schreiben.</description>
+         <changeDescription lang="en">Allows to write the files stored in the alarm directory.</changeDescription>
+         <changeDescription lang="de">Erlaubt es Dateien im Alarm-Verzeichnis zu schreiben.</changeDescription>
+      </privacySetting>
+      <privacySetting identifier="ext_alarms_l" validValueDescription="'true', 'false'">
+         <name lang="en">Alarm directory list files</name>
+         <name lang="de">Alarm-Verzeichnis Dateien auflisten</name>
+         <description lang="en">Allows to list the files stored in the alarm directory.</description>
+         <description lang="de">Erlaubt es die Dateien im Alarm-Verzeichnis aufzulisten.</description>
+         <changeDescription lang="en">Allows to list the files stored in the alarm directory.</changeDescription>
+         <changeDescription lang="de">Erlaubt es die Dateien im Alarm-Verzeichnis aufzulisten.</changeDescription>
+      </privacySetting>
+      <privacySetting identifier="ext_alarms_d" validValueDescription="'true', 'false'">
+         <name lang="en">Alarm directory delete files</name>
+         <name lang="de">Alarm-Verzeichnis löschen</name>
+         <description lang="en">Allows to delete the files stored in the alarm directory.</description>
+         <description lang="de">Erlaubt es Dateien im Alarm-Verzeichnis zu löschen.</description>
+         <changeDescription lang="en">Allows to delete the files stored in the alarm directory.</changeDescription>
+         <changeDescription lang="de">Erlaubt es Dateien im Alarm-Verzeichnis zu löschen.</changeDescription>
+      </privacySetting>
+      <privacySetting identifier="ext_alarms_mkdirs" validValueDescription="'true', 'false'">
+         <name lang="en">Alarm make directory</name>
+         <name lang="de">Alarm-Verzeichnis Ordner erstellen</name>
+         <description lang="en">Allows to create directories in the Alarm directory.</description>
+         <description lang="de">Erlaubt es Ordner im Alarm-Verzeichnis auf der SD-Karte zu erstellen.</description>
+         <changeDescription lang="en">Allows to create directories in the Alarm directory.</changeDescription>
+         <changeDescription lang="de">Erlaubt es Ordner im Alarm-Verzeichnis auf der SD-Karte zu erstellen.</changeDescription>
+      </privacySetting>
+      <privacySetting identifier="ext_notifications_r" validValueDescription="'true', 'false'">
+         <name lang="en">Notification directory read</name>
+         <name lang="de">Benachrichtigungs-Verzeichnis lesen</name>
+         <description lang="en">Allows to read the files stored in the notification directory.</description>
+         <description lang="de">Erlaubt es Dateien im Benachrichtigungs-Verzeichnis zu lesen.</description>
+         <changeDescription lang="en">Allows to read the files stored in the notification directory.</changeDescription>
+         <changeDescription lang="de">Erlaubt es Dateien im Benachrichtigungs-Verzeichnis zu lesen.</changeDescription>
+      </privacySetting>
+      <privacySetting identifier="ext_notifications_w" validValueDescription="'true', 'false'">
+         <name lang="en">Notification directory write</name>
+         <name lang="de">Benachrichtigungs-Verzeichnis schreiben</name>
+         <description lang="en">Allows to write the files stored in the notification directory.</description>
+         <description lang="de">Erlaubt es Dateien im Benachrichtigungs-Verzeichnis zu schreiben.</description>
+         <changeDescription lang="en">Allows to write the files stored in the notification directory.</changeDescription>
+         <changeDescription lang="de">Erlaubt es Dateien im Benachrichtigungs-Verzeichnis zu schreiben.</changeDescription>
+      </privacySetting>
+      <privacySetting identifier="ext_notifications_l" validValueDescription="'true', 'false'">
+         <name lang="en">Notification directory list files</name>
+         <name lang="de">Benachrichtigungs-Verzeichnis Dateien auflisten</name>
+         <description lang="en">Allows to list the files stored in the notification directory.</description>
+         <description lang="de">Erlaubt es die Dateien im Benachrichtigungs-Verzeichnis aufzulisten.</description>
+         <changeDescription lang="en">Allows to list the files stored in the notification directory.</changeDescription>
+         <changeDescription lang="de">Erlaubt es die Dateien im Benachrichtigungs-Verzeichnis aufzulisten.</changeDescription>
+      </privacySetting>
+      <privacySetting identifier="ext_notifications_d" validValueDescription="'true', 'false'">
+         <name lang="en">Notification directory delete files</name>
+         <name lang="de">Benachrichtigungs-Verzeichnis löschen</name>
+         <description lang="en">Allows to delete the files stored in the notification directory.</description>
+         <description lang="de">Erlaubt es Dateien im Benachrichtigungs-Verzeichnis zu löschen.</description>
+         <changeDescription lang="en">Allows to delete the files stored in the notification directory.</changeDescription>
+         <changeDescription lang="de">Erlaubt es Dateien im Benachrichtigungs-Verzeichnis zu löschen.</changeDescription>
+      </privacySetting>
+      <privacySetting identifier="ext_notifications_mkdirs" validValueDescription="'true', 'false'">
+         <name lang="en">Notification make directory</name>
+         <name lang="de">Benachrichtigungs-Verzeichnis Ordner erstellen</name>
+         <description lang="en">Allows to create directories in the notification directory.</description>
+         <description lang="de">Erlaubt es Ordner im Benachrichtigungs-Verzeichnis auf der SD-Karte zu erstellen.</description>
+         <changeDescription lang="en">Allows to create directories in the notification directory.</changeDescription>
+         <changeDescription lang="de">Erlaubt es Ordner im Benachrichtigungs-Verzeichnis auf der SD-Karte zu erstellen.</changeDescription>
+      </privacySetting>
+      <privacySetting identifier="ext_pictures_r" validValueDescription="'true', 'false'">
+         <name lang="en">Pictures directory read</name>
+         <name lang="de">Bilder-Verzeichnis lesen</name>
+         <description lang="en">Allows to read the files stored in the pictures directory.</description>
+         <description lang="de">Erlaubt es Dateien im Bilder-Verzeichnis zu lesen.</description>
+         <changeDescription lang="en">Allows to read the files stored in the pictures directory.</changeDescription>
+         <changeDescription lang="de">Erlaubt es Dateien im Bilder-Verzeichnis zu lesen.</changeDescription>
+      </privacySetting>
+      <privacySetting identifier="ext_pictures_w" validValueDescription="'true', 'false'">
+         <name lang="en">Pictures directory write</name>
+         <name lang="de">Bilder-Verzeichnis schreiben</name>
+         <description lang="en">Allows to write the files stored in the pictures directory.</description>
+         <description lang="de">Erlaubt es Dateien im Bilder-Verzeichnis zu schreiben.</description>
+         <changeDescription lang="en">Allows to write the files stored in the pictures directory.</changeDescription>
+         <changeDescription lang="de">Erlaubt es Dateien im Bilder-Verzeichnis zu schreiben.</changeDescription>
+      </privacySetting>
+      <privacySetting identifier="ext_pictures_l" validValueDescription="'true', 'false'">
+         <name lang="en">Pictures directory list files</name>
+         <name lang="de">Bilder-Verzeichnis Dateien auflisten</name>
+         <description lang="en">Allows to list the files stored in the pictures directory.</description>
+         <description lang="de">Erlaubt es die Dateien im Bilder-Verzeichnis aufzulisten.</description>
+         <changeDescription lang="en">Allows to list the files stored in the pictures directory.</changeDescription>
+         <changeDescription lang="de">Erlaubt es die Dateien im Bilder-Verzeichnis aufzulisten.</changeDescription>
+      </privacySetting>
+      <privacySetting identifier="ext_pictures_d" validValueDescription="'true', 'false'">
+         <name lang="en">Pictures directory delete files</name>
+         <name lang="de">Bilder-Verzeichnis löschen</name>
+         <description lang="en">Allows to delete the files stored in the pictures directory.</description>
+         <description lang="de">Erlaubt es Dateien im Bilder-Verzeichnis zu löschen.</description>
+         <changeDescription lang="en">Allows to delete the files stored in the pictures directory.</changeDescription>
+         <changeDescription lang="de">Erlaubt es Dateien im Bilder-Verzeichnis zu löschen.</changeDescription>
+      </privacySetting>
+      <privacySetting identifier="ext_pictures_mkdirs" validValueDescription="'true', 'false'">
+         <name lang="en">Pictures make directory</name>
+         <name lang="de">Bilder-Verzeichnis Ordner erstellen</name>
+         <description lang="en">Allows to create directories in the pictures directory.</description>
+         <description lang="de">Erlaubt es Ordner im Bilder-Verzeichnis auf der SD-Karte zu erstellen.</description>
+         <changeDescription lang="en">Allows to create directories in the pictures directory.</changeDescription>
+         <changeDescription lang="de">Erlaubt es Ordner im Bilder-Verzeichnis auf der SD-Karte zu erstellen.</changeDescription>
+      </privacySetting>
+      <privacySetting identifier="ext_movies_r" validValueDescription="'true', 'false'">
+         <name lang="en">Movies directory read</name>
+         <name lang="de">Filme-Verzeichnis lesen</name>
+         <description lang="en">Allows to read the files stored in the movies directory.</description>
+         <description lang="de">Erlaubt es Dateien im Filme-Verzeichnis zu lesen.</description>
+         <changeDescription lang="en">Allows to read the files stored in the movies directory.</changeDescription>
+         <changeDescription lang="de">Erlaubt es Dateien im Filme-Verzeichnis zu lesen.</changeDescription>
+      </privacySetting>
+      <privacySetting identifier="ext_movies_w" validValueDescription="'true', 'false'">
+         <name lang="en">Movies directory write</name>
+         <name lang="de">Filme-Verzeichnis schreiben</name>
+         <description lang="en">Allows to write the files stored in the movies directory.</description>
+         <description lang="de">Erlaubt es Dateien im Filme-Verzeichnis zu schreiben.</description>
+         <changeDescription lang="en">Allows to write the files stored in the movies directory.</changeDescription>
+         <changeDescription lang="de">Erlaubt es Dateien im Filme-Verzeichnis zu schreiben.</changeDescription>
+      </privacySetting>
+      <privacySetting identifier="ext_movies_l" validValueDescription="'true', 'false'">
+         <name lang="en">Movies directory list files</name>
+         <name lang="de">Filme-Verzeichnis Dateien auflisten</name>
+         <description lang="en">Allows to list the files stored in the movies directory.</description>
+         <description lang="de">Erlaubt es die Dateien im Filme-Verzeichnis aufzulisten.</description>
+         <changeDescription lang="en">Allows to list the files stored in the movies directory.</changeDescription>
+         <changeDescription lang="de">Erlaubt es die Dateien im Filme-Verzeichnis aufzulisten.</changeDescription>
+      </privacySetting>
+      <privacySetting identifier="ext_movies_d" validValueDescription="'true', 'false'">
+         <name lang="en">Movies directory delete files</name>
+         <name lang="de">Filme-Verzeichnis löschen</name>
+         <description lang="en">Allows to delete the files stored in the movies directory.</description>
+         <description lang="de">Erlaubt es Dateien im Filme-Verzeichnis zu löschen.</description>
+         <changeDescription lang="en">Allows to delete the files stored in the movies directory.</changeDescription>
+         <changeDescription lang="de">Erlaubt es Dateien im Filme-Verzeichnis zu löschen.</changeDescription>
+      </privacySetting>
+      <privacySetting identifier="ext_movies_mkdirs" validValueDescription="'true', 'false'">
+         <name lang="en">Movies make directory</name>
+         <name lang="de">Filme-Verzeichnis Ordner erstellen</name>
+         <description lang="en">Allows to create directories in the movies directory.</description>
+         <description lang="de">Erlaubt es Ordner im Filme-Verzeichnis auf der SD-Karte zu erstellen.</description>
+         <changeDescription lang="en">Allows to create directories in the movies directory.</changeDescription>
+         <changeDescription lang="de">Erlaubt es Ordner im Filme-Verzeichnis auf der SD-Karte zu erstellen.</changeDescription>
+      </privacySetting>
+      <privacySetting identifier="ext_download_r" validValueDescription="'true', 'false'">
+         <name lang="en">Download directory read</name>
+         <name lang="de">Download-Verzeichnis lesen</name>
+         <description lang="en">Allows to read the files stored in the download directory.</description>
+         <description lang="de">Erlaubt es Dateien im Download-Verzeichnis zu lesen.</description>
+         <changeDescription lang="en">Allows to read the files stored in the download directory.</changeDescription>
+         <changeDescription lang="de">Erlaubt es Dateien im Download-Verzeichnis zu lesen.</changeDescription>
+      </privacySetting>
+      <privacySetting identifier="ext_download_w" validValueDescription="'true', 'false'">
+         <name lang="en">Download directory write</name>
+         <name lang="de">Download-Verzeichnis schreiben</name>
+         <description lang="en">Allows to write the files stored in the download directory.</description>
+         <description lang="de">Erlaubt es Dateien im Download-Verzeichnis zu schreiben.</description>
+         <changeDescription lang="en">Allows to write the files stored in the download directory.</changeDescription>
+         <changeDescription lang="de">Erlaubt es Dateien im Download-Verzeichnis zu schreiben.</changeDescription>
+      </privacySetting>
+      <privacySetting identifier="ext_download_l" validValueDescription="'true', 'false'">
+         <name lang="en">Download directory list files</name>
+         <name lang="de">Download-Verzeichnis Dateien auflisten</name>
+         <description lang="en">Allows to list the files stored in the download directory.</description>
+         <description lang="de">Erlaubt es die Dateien im Download-Verzeichnis aufzulisten.</description>
+         <changeDescription lang="en">Allows to list the files stored in the download directory.</changeDescription>
+         <changeDescription lang="de">Erlaubt es die Dateien im Download-Verzeichnis aufzulisten.</changeDescription>
+      </privacySetting>
+      <privacySetting identifier="ext_download_d" validValueDescription="'true', 'false'">
+         <name lang="en">Download directory delete files</name>
+         <name lang="de">Download-Verzeichnis löschen</name>
+         <description lang="en">Allows to delete the files stored in the download directory.</description>
+         <description lang="de">Erlaubt es Dateien im Download-Verzeichnis zu löschen.</description>
+         <changeDescription lang="en">Allows to delete the files stored in the download directory.</changeDescription>
+         <changeDescription lang="de">Erlaubt es Dateien im Download-Verzeichnis zu löschen.</changeDescription>
+      </privacySetting>
+      <privacySetting identifier="ext_download_mkdirs" validValueDescription="'true', 'false'">
+         <name lang="en">Download make directory</name>
+         <name lang="de">Download-Verzeichnis Ordner erstellen</name>
+         <description lang="en">Allows to create directories in the download directory.</description>
+         <description lang="de">Erlaubt es Ordner im Download-Verzeichnis auf der SD-Karte zu erstellen.</description>
+         <changeDescription lang="en">Allows to create directories in the download directory.</changeDescription>
+         <changeDescription lang="de">Erlaubt es Ordner im Download-Verzeichnis auf der SD-Karte zu erstellen.</changeDescription>
+      </privacySetting>
+   </privacySettings>
+</resourceGroupInformationSet>

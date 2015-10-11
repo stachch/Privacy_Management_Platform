@@ -31,7 +31,7 @@ import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.database.sqlite.SQLiteQueryBuilder;
-import de.unistuttgart.ipvs.pmp.Log;
+import de.unistuttgart.ipvs.pmp.shared.Log;
 
 /**
  * This is a helper for opening the database used by PMP.<br/>

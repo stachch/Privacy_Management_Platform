@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="de.unistuttgart.ipvs.pmp.apps.calendarapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:maxSdkVersion="23"
+        android:minSdkVersion="7"
+        android:targetSdkVersion="22" />
+
+    <application
+        android:name="CalendarApp"
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name" >
+        <activity
+            android:name="de.unistuttgart.ipvs.pmp.shared.api.gui.registration.RegistrationActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="mainActivity"
+                android:value="de.unistuttgart.ipvs.pmp.apps.calendarapp.gui.activities.CalendarAppActivity" />
+        </activity>
+        <activity
+            android:name=".gui.activities.CalendarAppActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity android:name=".gui.activities.ImportActivity" >
+        </activity>
+
+        <!-- The service of the app where pmp connects to -->
+        <service android:name="de.unistuttgart.ipvs.pmp.shared.service.app.AppService" >
+            <intent-filter>
+                <action android:name="de.unistuttgart.ipvs.pmp.apps.calendarapp" >
+                </action>
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

@@ -36,9 +36,9 @@ import de.unistuttgart.ipvs.pmp.model.element.ModelElement;
 import de.unistuttgart.ipvs.pmp.model.element.app.IApp;
 import de.unistuttgart.ipvs.pmp.model.element.privacysetting.IPrivacySetting;
 import de.unistuttgart.ipvs.pmp.model.element.privacysetting.PrivacySetting;
-import de.unistuttgart.ipvs.pmp.resource.RGMode;
-import de.unistuttgart.ipvs.pmp.resource.Resource;
-import de.unistuttgart.ipvs.pmp.resource.privacysetting.PrivacySettingValueException;
+import de.unistuttgart.ipvs.pmp.shared.resource.RGMode;
+import de.unistuttgart.ipvs.pmp.shared.resource.Resource;
+import de.unistuttgart.ipvs.pmp.shared.resource.privacysetting.PrivacySettingValueException;
 import de.unistuttgart.ipvs.pmp.util.FileLog;
 import de.unistuttgart.ipvs.pmp.xmlutil.rgis.IRGIS;
 
@@ -59,7 +59,7 @@ public class ResourceGroup extends ModelElement implements IResourceGroup {
      */
     protected Map<String, PrivacySetting> privacySettings;
     protected Drawable icon;
-    protected de.unistuttgart.ipvs.pmp.resource.ResourceGroup link;
+    protected de.unistuttgart.ipvs.pmp.shared.resource.ResourceGroup link;
     protected long revision;
     
     /**

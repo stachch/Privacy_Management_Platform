@@ -26,7 +26,7 @@ import android.os.Looper;
 import android.view.Window;
 import android.widget.TextView;
 import de.unistuttgart.ipvs.pmp.R;
-import de.unistuttgart.ipvs.pmp.gui.view.BasicTitleView;
+import de.unistuttgart.ipvs.pmp.shared.gui.view.BasicTitleView;
 
 public class DialogLongRunningTask extends Dialog {
     

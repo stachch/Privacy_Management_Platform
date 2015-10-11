@@ -21,7 +21,7 @@ package de.unistuttgart.ipvs.pmp.util;
 
 import java.util.logging.Level;
 
-import de.unistuttgart.ipvs.pmp.Log;
+import de.unistuttgart.ipvs.pmp.shared.Log;
 
 /**
  * Interface that implements logging to a file.

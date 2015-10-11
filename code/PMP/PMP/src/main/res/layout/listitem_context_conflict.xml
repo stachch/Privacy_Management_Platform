@@ -50,7 +50,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical" >
 
-            <de.unistuttgart.ipvs.pmp.gui.view.BasicTitleViewCompact
+            <de.unistuttgart.ipvs.pmp.shared.gui.view.BasicTitleViewCompact
                 pmp:name="@string/context_conflict_ps_title"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
@@ -85,7 +85,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical" >
 
-            <de.unistuttgart.ipvs.pmp.gui.view.BasicTitleViewCompact
+            <de.unistuttgart.ipvs.pmp.shared.gui.view.BasicTitleViewCompact
                 pmp:name="@string/context_conflict_contexts_title"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
@@ -104,7 +104,7 @@
             </LinearLayout>
         </LinearLayout>
 
-        <de.unistuttgart.ipvs.pmp.gui.view.BasicTitleViewCompact
+        <de.unistuttgart.ipvs.pmp.shared.gui.view.BasicTitleViewCompact
             pmp:name="@string/context_conflict_apps_title"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"

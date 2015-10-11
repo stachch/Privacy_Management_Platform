@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appInformationSet>
+	<appInformation>
+		<name lang="en">Calendar</name>
+		<name lang="de">Kalender</name>
+		<description lang="en">This App is used to test the privacy management platform. It provides simple calendar functionalities.</description>
+		<description lang="de">Die App wird verwendet um die Privacy Manangement Platform zu testen. Sie stellt einfache Funktionalitäten eines Kalenders zur Verfügung.</description>
+	</appInformation>
+	<serviceFeatures>
+		<serviceFeature identifier="read">
+			<name lang="en">Show entries</name>
+			<name lang="de">Termine anzeigen</name>
+			<description lang="en">Calendar entries can be displayed.</description>
+			<description lang="de">Kalendereinträge können angezeigt werden.</description>
+			<requiredResourceGroup identifier="de.unistuttgart.ipvs.pmp.resourcegroups.database" minRevision="1">
+				<requiredPrivacySetting identifier="read">true</requiredPrivacySetting>
+				<requiredPrivacySetting identifier="allowedDatabases">appointments</requiredPrivacySetting>
+			</requiredResourceGroup>
+		</serviceFeature>
+		<serviceFeature identifier="write">
+			<name lang="en">Create entries</name>
+			<name lang="de">Termine hinzufügen</name>
+			<description lang="en">Calendar entries can be added or changed.</description>
+			<description lang="de">Kalendereinträge können hinzugefügt oder bearbeitet werden.</description>
+			<requiredResourceGroup identifier="de.unistuttgart.ipvs.pmp.resourcegroups.database" minRevision="1">
+				<requiredPrivacySetting identifier="modify">true</requiredPrivacySetting>
+				<requiredPrivacySetting identifier="create">true</requiredPrivacySetting>
+				<requiredPrivacySetting identifier="allowedDatabases">appointments</requiredPrivacySetting>
+			</requiredResourceGroup>
+		</serviceFeature>
+		<serviceFeature identifier="send">
+			<name lang="en">Send entries via email</name>
+			<name lang="de">Termine per E-Mail versenden.</name>
+			<description lang="en">Calendar entries can be sent via e-mail.</description>
+			<description lang="de">Kalendereinträge können per E-Mail versendet werden.</description>
+			<requiredResourceGroup identifier="de.unistuttgart.ipvs.pmp.resourcegroups.email" minRevision="1">
+				<requiredPrivacySetting identifier="canSendEmail">true</requiredPrivacySetting>
+			</requiredResourceGroup>
+		</serviceFeature>
+		<serviceFeature identifier="import">
+			<name lang="en">Import entries</name>
+			<name lang="de">Termine importieren</name>
+			<description lang="en">Import calendar entries from the sd-card.</description>
+			<description lang="de">Kalendereinträge von der SD-Karte importieren.</description>
+			<requiredResourceGroup identifier="de.unistuttgart.ipvs.pmp.resourcegroups.filesystem" minRevision="1">
+				<requiredPrivacySetting identifier="ext_download_l">true</requiredPrivacySetting>
+				<requiredPrivacySetting identifier="ext_download_r">true</requiredPrivacySetting>
+			</requiredResourceGroup>
+		</serviceFeature>
+		<serviceFeature identifier="export">
+			<name lang="en">Export entries</name>
+			<name lang="de">Termine exportieren</name>
+			<description lang="en">Export calendar entries to the sd-card.</description>
+			<description lang="de">Kalendereinträge auf die SD-Karte exportieren.</description>
+			<requiredResourceGroup identifier="de.unistuttgart.ipvs.pmp.resourcegroups.filesystem" minRevision="1">
+				<requiredPrivacySetting identifier="ext_download_d">true</requiredPrivacySetting>
+				<requiredPrivacySetting identifier="ext_download_w">true</requiredPrivacySetting>
+				<requiredPrivacySetting identifier="ext_download_mkdirs">true</requiredPrivacySetting>
+			</requiredResourceGroup>
+		</serviceFeature>
+	</serviceFeatures>
+</appInformationSet>

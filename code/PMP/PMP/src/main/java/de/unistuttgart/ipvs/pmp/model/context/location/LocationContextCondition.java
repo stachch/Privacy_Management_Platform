@@ -28,7 +28,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import de.unistuttgart.ipvs.pmp.model.exception.InvalidConditionException;
-import de.unistuttgart.ipvs.pmp.util.location.PMPGeoPoint;
+import de.unistuttgart.ipvs.pmp.shared.util.location.PMPGeoPoint;
 
 /**
  * The parsed condition for a {@link LocationContext}.

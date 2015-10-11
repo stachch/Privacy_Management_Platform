@@ -5,12 +5,12 @@
     android:layout_height="fill_parent"
     android:orientation="vertical" >
 
-    <de.unistuttgart.ipvs.pmp.gui.view.BasicTitleViewCompact
+    <de.unistuttgart.ipvs.pmp.shared.gui.view.BasicTitleViewCompact
         pmp:name="@string/description"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         pmp:icon="@drawable/icon_info" >
-    </de.unistuttgart.ipvs.pmp.gui.view.BasicTitleViewCompact>
+    </de.unistuttgart.ipvs.pmp.shared.gui.view.BasicTitleViewCompact>
 
     <TextView
         android:id="@+id/TextView_Description"

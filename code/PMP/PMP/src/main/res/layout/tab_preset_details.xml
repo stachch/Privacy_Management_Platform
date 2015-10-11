@@ -15,12 +15,12 @@
             android:layout_height="wrap_content"
             android:orientation="vertical" >
 
-            <de.unistuttgart.ipvs.pmp.gui.view.BasicTitleViewCompact
+            <de.unistuttgart.ipvs.pmp.shared.gui.view.BasicTitleViewCompact
                 pmp:name="@string/description"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 pmp:icon="@drawable/icon_info" >
-            </de.unistuttgart.ipvs.pmp.gui.view.BasicTitleViewCompact>
+            </de.unistuttgart.ipvs.pmp.shared.gui.view.BasicTitleViewCompact>
 
             <TextView
                 android:id="@+id/TextView_Description"
@@ -28,13 +28,13 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="-3dp" />
 
-            <de.unistuttgart.ipvs.pmp.gui.view.BasicTitleViewCompact
+            <de.unistuttgart.ipvs.pmp.shared.gui.view.BasicTitleViewCompact
                 pmp:name="@string/statistics"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
                 pmp:icon="@drawable/icon_statistics" >
-            </de.unistuttgart.ipvs.pmp.gui.view.BasicTitleViewCompact>
+            </de.unistuttgart.ipvs.pmp.shared.gui.view.BasicTitleViewCompact>
 
             <TextView
                 android:id="@+id/TextView_Statistics"
@@ -51,13 +51,13 @@
         android:orientation="vertical"
         android:visibility="gone" >
 
-        <de.unistuttgart.ipvs.pmp.gui.view.BasicTitleViewCompact
+        <de.unistuttgart.ipvs.pmp.shared.gui.view.BasicTitleViewCompact
             pmp:name="@string/problems"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
             pmp:icon="@drawable/icon_delete" >
-        </de.unistuttgart.ipvs.pmp.gui.view.BasicTitleViewCompact>
+        </de.unistuttgart.ipvs.pmp.shared.gui.view.BasicTitleViewCompact>
 
         <TextView
             android:layout_width="fill_parent"

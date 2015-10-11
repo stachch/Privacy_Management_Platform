@@ -44,7 +44,6 @@ import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
-import de.unistuttgart.ipvs.pmp.Log;
 import de.unistuttgart.ipvs.pmp.R;
 import de.unistuttgart.ipvs.pmp.gui.preset.conflict.ActivityConflictList;
 import de.unistuttgart.ipvs.pmp.gui.util.ActivityKillReceiver;
@@ -55,6 +54,7 @@ import de.unistuttgart.ipvs.pmp.gui.util.PresetSetTools;
 import de.unistuttgart.ipvs.pmp.gui.util.PresetSetTools.ICallbackImport;
 import de.unistuttgart.ipvs.pmp.gui.util.model.ModelProxy;
 import de.unistuttgart.ipvs.pmp.model.element.preset.IPreset;
+import de.unistuttgart.ipvs.pmp.shared.Log;
 
 /**
  * The overview of all created and deleted Presets

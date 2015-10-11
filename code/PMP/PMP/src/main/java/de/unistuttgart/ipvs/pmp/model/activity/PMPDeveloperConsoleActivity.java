@@ -42,10 +42,8 @@ import android.widget.CompoundButton.OnCheckedChangeListener;
 import android.widget.EditText;
 import android.widget.Toast;
 import android.widget.ToggleButton;
-import de.unistuttgart.ipvs.pmp.Log;
 import de.unistuttgart.ipvs.pmp.PMPApplication;
 import de.unistuttgart.ipvs.pmp.R;
-import de.unistuttgart.ipvs.pmp.api.ipc.IPCConnection;
 import de.unistuttgart.ipvs.pmp.gui.main.ActivityMain;
 import de.unistuttgart.ipvs.pmp.gui.util.model.ModelProxy;
 import de.unistuttgart.ipvs.pmp.model.DatabaseOpenHelper;
@@ -65,6 +63,8 @@ import de.unistuttgart.ipvs.pmp.model.exception.InvalidPluginException;
 import de.unistuttgart.ipvs.pmp.model.exception.InvalidXMLException;
 import de.unistuttgart.ipvs.pmp.model.plugin.PluginProvider;
 import de.unistuttgart.ipvs.pmp.service.ServiceNotification;
+import de.unistuttgart.ipvs.pmp.shared.Log;
+import de.unistuttgart.ipvs.pmp.shared.api.ipc.IPCConnection;
 import de.unistuttgart.ipvs.pmp.util.BootReceiver;
 
 public class PMPDeveloperConsoleActivity extends Activity {

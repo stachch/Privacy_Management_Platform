@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <DatePicker
+            android:id="@+id/datePicker"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+        </DatePicker>
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/appointment_name"
+            android:maxLines="2"
+            android:scrollbars="vertical" >
+
+            <requestFocus>
+            </requestFocus>
+        </EditText>
+
+        <EditText
+            android:id="@+id/description"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/desc"
+            android:maxLines="4"
+            android:scrollbars="vertical" >
+        </EditText>
+
+        <TextView
+            android:id="@+id/severity_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/severity" />
+
+        <RadioGroup
+            android:id="@+id/severity_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/severity_high"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/severity_high" />
+
+            <RadioButton
+                android:id="@+id/severity_middle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/severity_middle" />
+
+            <RadioButton
+                android:id="@+id/severity_low"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/severity_low" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_horizontal"
+            android:baselineAligned="true"
+            android:gravity="center_horizontal|bottom"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/ConfirmButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/conf" >
+            </Button>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

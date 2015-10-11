@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resourceGroupInformationSet>
+	<resourceGroupInformation
+		identifier="de.unistuttgart.ipvs.pmp.resourcegroups.location"
+		icon="res/drawable/icon.png"
+		className="LocationResourceGroup">
+		<name lang="en">Location</name>
+		<name lang="de">Ortung</name>
+		<description lang="en">Obtains access to the current location of the device.</description>
+		<description lang="de">Erlaubt Zugriff auf den aktuellen Standort des Geräts.</description>
+	</resourceGroupInformation>
+	<privacySettings>
+		<privacySetting identifier="useAbsoluteLocation"
+			validValueDescription="'true', 'false'">
+			<name lang="en">Absolute location</name>
+			<name lang="de">Genaue Ortung</name>
+			<description lang="en">Obtains access to the exact current location.</description>
+			<description lang="de">Erlaubt Zugriff auf die aktuell exakte Position.</description>
+			<changeDescription lang="en">By ticking off the checkbox the assigned Apps are allowed to use the absolute location (GPS).</changeDescription>
+			<changeDescription lang="de">Durch aktivieren der Checkbox wird den zugewiesenen Apps die Nutzung der genauen Ortung (GPS) erlaubt.</changeDescription>
+		</privacySetting>
+		<privacySetting identifier="useCoordinates"
+			validValueDescription="'true', 'false'">
+			<name lang="en">Exact location</name>
+			<name lang="de">Genaue Ortung</name>
+			<description lang="en">Obtains access to the exact current location.</description>
+			<description lang="de">Erlaubt Zugriff auf die aktuell exakte Position.</description>
+			<changeDescription lang="en">By ticking off the checkbox the assigned Apps are allowed to use the coordinates of the current location.</changeDescription>
+			<changeDescription lang="de">Durch aktivieren der Checkbox wird den zugewiesenen Apps erlaubt die Koordinaten der aktuellen Positon auszulesen.</changeDescription>
+		</privacySetting>
+		<privacySetting identifier="useAccuracy"
+			validValueDescription="'true', 'false'">
+			<name lang="en">Use accuracy</name>
+			<name lang="de">Genauigkeit nutzen</name>
+			<description lang="en">Obtains access to the current accuracy of the location.</description>
+			<description lang="de">Erlaubt Zugriff auf die aktuell Genauigkeit der Position.</description>
+			<changeDescription lang="en">By ticking off the checkbox the assigned Apps are allowed to read the current accuracy of the gps signal. Accuracy will never be better than defined in the Privacy Setting 'Location precision'.</changeDescription>
+			<changeDescription lang="de">Durch aktivieren der Checkbox wird den zugewiesenen Apps erlaubt die aktuelle Genaugikeit der GPS-Signals auszulesen. Die Genaugikeit wird niemals besser sein als im Privacy Setting 'Genauigkeit der Ortung' definiert.</changeDescription>
+		</privacySetting>
+		<privacySetting identifier="useSpeed"
+			validValueDescription="'true', 'false'">
+			<name lang="en">Current speed</name>
+			<name lang="de">Aktuelle Geschwindigkeit</name>
+			<description lang="en">Obtains access to the current speed.</description>
+			<description lang="de">Erlaubt Zugriff auf die aktuelle Geschwindigkeit.</description>
+			<changeDescription lang="en">By ticking off the checkbox the assigned Apps are allowed to read the current speed.</changeDescription>
+			<changeDescription lang="de">Durch aktivieren der Checkbox wird den zugewiesenen Apps erlaubt die aktuelle Geschwindigkeit auszulesen.</changeDescription>
+		</privacySetting>
+		<privacySetting identifier="useLocationDescription"
+			validValueDescription="'NONE', 'COUNTRY', 'CITY', 'STREET'">
+			<name lang="en">Description detail</name>
+			<name lang="de">Genauigkeit der Beschreibung</name>
+			<description lang="en">Obtains more or less detailed access to a description of the current location.</description>
+			<description lang="de">Erlaubt Zugriff auf eine mehr oder weniger genaue Beschreibung der aktuellen Position.</description>
+			<changeDescription lang="en">Select the desired level of detail the assigned Apps should be able to read. For this Privacy Setting only 'Absolute Location' is required to be enabled, and is from all other Privacy Settings independent.</changeDescription>
+			<changeDescription lang="de">Das gewünschte Level gibt an wie viele Details zugewiesene Apps erfahren dürfen. Dieses Privacy Setting benötigt nur 'Genaue Ortung' aktiviert und ist von allen anderen Privacy Settings unabhängig.</changeDescription>
+		</privacySetting>
+		<privacySetting identifier="locationPrecision"
+			validValueDescription="integer greater or equal 0">
+			<name lang="en">Location precision</name>
+			<name lang="de">Genauigkeit der Ortung</name>
+			<description lang="en">How precise the location should be.</description>
+			<description lang="de">Wie genau die Ortung sein soll.</description>
+			<changeDescription lang="en">An integer greater or equal 0 (in meters). Describes how detailed the position update are. When a more detailed position over GPS is available the location will be manually blurred.</changeDescription>
+			<changeDescription lang="de">Eine Ganzahl in Metern die die Geanuigkeit angibt mit der die Positionsupdates maximal an die Apps übertragen werden. Wenn ein genaueres GPS signal verfügbar ist wird die Position manuell ungenauer gemacht.</changeDescription>
+		</privacySetting>
+	</privacySettings>
+</resourceGroupInformationSet>

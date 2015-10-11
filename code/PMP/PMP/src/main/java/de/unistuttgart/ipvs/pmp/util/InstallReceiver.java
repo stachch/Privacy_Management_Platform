@@ -27,9 +27,9 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager.NameNotFoundException;
 import android.content.res.Resources;
-import de.unistuttgart.ipvs.pmp.Log;
 import de.unistuttgart.ipvs.pmp.PMPApplication;
 import de.unistuttgart.ipvs.pmp.model.activity.DebugInstallRGActivity;
+import de.unistuttgart.ipvs.pmp.shared.Log;
 
 /**
  * {@link BroadcastReceiver} to directly install RGs once they are installed by Android.

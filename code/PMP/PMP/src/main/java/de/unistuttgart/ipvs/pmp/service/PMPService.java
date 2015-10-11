@@ -24,9 +24,9 @@ import java.util.concurrent.Semaphore;
 import android.app.Service;
 import android.content.Intent;
 import android.os.IBinder;
-import de.unistuttgart.ipvs.pmp.Log;
-import de.unistuttgart.ipvs.pmp.api.PMP;
 import de.unistuttgart.ipvs.pmp.model.element.app.App;
+import de.unistuttgart.ipvs.pmp.shared.Log;
+import de.unistuttgart.ipvs.pmp.shared.api.PMP;
 import de.unistuttgart.ipvs.pmp.util.Restarter;
 
 /**

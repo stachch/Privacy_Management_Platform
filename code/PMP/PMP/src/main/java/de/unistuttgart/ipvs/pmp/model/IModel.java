@@ -31,7 +31,7 @@ import de.unistuttgart.ipvs.pmp.model.element.resourcegroup.IResourceGroup;
 import de.unistuttgart.ipvs.pmp.model.exception.InvalidPluginException;
 import de.unistuttgart.ipvs.pmp.model.exception.InvalidXMLException;
 import de.unistuttgart.ipvs.pmp.model.server.ServerProvider;
-import de.unistuttgart.ipvs.pmp.service.pmp.RegistrationResult;
+import de.unistuttgart.ipvs.pmp.shared.service.pmp.RegistrationResult;
 
 /**
  * The {@link IModel} provides all {@link IApp}s, {@link IPreset}s and {@link IResourceGroup}s known by PMP.

@@ -22,9 +22,9 @@ package de.unistuttgart.ipvs.pmp.model.assertion;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 
-import de.unistuttgart.ipvs.pmp.Log;
 import de.unistuttgart.ipvs.pmp.model.element.app.IApp;
 import de.unistuttgart.ipvs.pmp.model.element.resourcegroup.IResourceGroup;
+import de.unistuttgart.ipvs.pmp.shared.Log;
 
 /**
  * A static assertion class much like in the old model. Performs all kinds of checks and reacts to errors.
